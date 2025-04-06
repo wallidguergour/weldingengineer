@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.wallid-guergour.com/blog/metallurgy/Book/001-Page-one-of-metallurgy-book.html</loc>
+    <image:image>
+      <image:loc>images/Google/Schema/Metallurgy/Book/01-Start-learning.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Blog/MOOC/Ressources/Tableau-periodique-Steel-Technics-Wallid-Guergour-Ironworker-Welder-Boilermaker-Mooc-Metallurgy.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.wallid-guergour.com/blog/metallurgy/Book/002-History-and-technics-of-metals.html</loc>
+    <image:image>
+      <image:loc>images/Google/Schema/Metallurgy/Book/02-History-of-metals.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Blog/MOOC/Ressources/Wallid-Guergour-TheMetallurgist-Arc-Welding-Specialist-Ship-Metallurgy-Book.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.wallid-guergour.com/blog/metallurgy/Book/003-The-origins-of-metallurgy.html</loc>
+    <image:image>
+      <image:loc>images/Google/Schema/Metallurgy/Book/03-The-origins-of-metallurgy.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Blog/MOOC/Ressources/Hammer-of-Wallid-Guergour-Metallurgy-Book-Origins.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Blog/MOOC/Ressources/History-Of-Metallurgy-Wallid-Guergour-Book-Education.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Blog/MOOC/Ressources/Construction-site-Wallid-Guergour-Metallurgy-Book.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.wallid-guergour.com/blog/metallurgy/Book/004-The-history-of-metallurgy-and-industry.html</loc>
+    <image:image>
+      <image:loc>images/Google/Schema/Metallurgy/Book/04-History-of-metallurgy-and-industry.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Blog/MOOC/Ressources/Mine-truck-Wallid-Guergour-Welding-specialist.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.wallid-guergour.com/blog/metallurgy/Book/005-How-steel-is-made.html</loc>
+    <image:image>
+      <image:loc>images/Google/Schema/Metallurgy/Book/05-How-steel-is-made.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Blog/MOOC/Ressources/Gold-metal-casting-of-Wallid-Guergour-Themetallurgist-Arc-welding-specialist.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.wallid-guergour.com/blog/metallurgy/Book/006-How-is-steel-processed.html</loc>
+    <image:image>
+      <image:loc>images/Google/Schema/Metallurgy/Book/06-How-is-steel-processed.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Blog/MOOC/Ressources/Steel-Storage-Wallid-Guergour-Steel-Technics.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Blog/MOOC/Ressources/Milling-Tool-Machine-Wallid-Guergour-Steel-Technics.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Blog/MOOC/Ressources/Milling-Machine-2-Wallid-Guergour-Steel-Technics.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Blog/MOOC/Ressources/Milling-Machine-Wallid-Guergour-Steel-Technics.webp</image:loc>
+    </image:image>
+  </url>
+
+</urlset>

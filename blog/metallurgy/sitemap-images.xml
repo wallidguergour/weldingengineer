@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.wallid-guergour.com/blog/metallurgy/01-Ironworking-compagnies-Metallurgy-book.html</loc>
+    <image:image>
+      <image:loc>images/Google/Schema/Metallurgy/01-Ironworking-compagnies.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Blog/MOOC/Ressources/Galvanized-steel-sheet-Wallid-Guergour-Steel-Technics.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Blog/MOOC/Ressources/Construction-site-Steel-Technics-Wallid-Guergour.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.wallid-guergour.com/blog/metallurgy/02-European-norms-in-metallurgy-field.html</loc>
+    <image:image>
+      <image:loc>images/Google/Schema/Metallurgy/02-European-Norms.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.wallid-guergour.com/blog/metallurgy/03-Eurocodes-standards-in-metallurgy-field.html</loc>
+    <image:image>
+      <image:loc>images/Google/Schema/Metallurgy/03-Eurocode-standards.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.wallid-guergour.com/blog/metallurgy/04-Building-materials.html</loc>
+    <image:image>
+      <image:loc>images/Google/Schema/Metallurgy/04-Building-Materials.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Blog/MOOC/Ressources/Designation-symbolique-Positions.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Blog/MOOC/Ressources/Designation-symbolique-Caractères.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Blog/MOOC/Ressources/Designation-symbolique-Positions-2.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Blog/MOOC/Ressources/Designation-symbolique-Caractères-2.png</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.wallid-guergour.com/blog/metallurgy/05-Steel-designation-systems.html</loc>
+    <image:image>
+      <image:loc>images/Google/Schema/Metallurgy/05-Steel-designation.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.wallid-guergour.com/blog/metallurgy/06-Steel-designation-systems-group-2.html</loc>
+    <image:image>
+      <image:loc>images/Google/Schema/Metallurgy/05-Steel-designation.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.wallid-guergour.com/blog/metallurgy/07-Building-materials-common-use-of-steels.html</loc>
+    <image:image>
+      <image:loc>images/Google/Schema/Metallurgy/06-Information-materials.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.wallid-guergour.com/blog/metallurgy/08-Non-ferrous metals and alloys.html</loc>
+    <image:image>
+      <image:loc>images/Google/Schema/Metallurgy/06-Information-materials.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Blog/MOOC/Ressources/Tableau-periodique-Steel-Technics-Wallid-Guergour-Ironworker-Welder-Boilermaker-Mooc-Metallurgy.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.wallid-guergour.com/blog/metallurgy/09-Cast-aluminium-alloys.html</loc>
+    <image:image>
+      <image:loc>images/Google/Schema/Metallurgy/06-Information-materials.webp</image:loc>
+    </image:image>
+  </url>
+
+</urlset>

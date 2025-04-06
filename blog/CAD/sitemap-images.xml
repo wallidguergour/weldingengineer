@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.wallid-guergour.com/blog/CAD/3D-Modeling-Boilermaker-Welder.html</loc>
+    <image:image>
+      <image:loc>images/Google/Schema/Fishing/01-Topwater-color-lure.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Google/Schema/Fishing/01-Topwater-color-lure2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Google/Schema/Fishing/01-Topwater-color-lure3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Fishing/Lures/Topwater/topwater-lure-for-blackbass-and-pike-wallid-guergour-fisherman.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Fishing/Bassfishing/Blackbass-catch-by-wallid-guergour-fisherman-with-lure.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Fishing/Perch/perch-of-wallid-guergour-fisherman-blackbass.webp</image:loc>
+    </image:image>
+  </url>
+</urlset>

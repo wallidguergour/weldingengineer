@@ -1,0 +1,412 @@
+
+<!doctype html>
+<html lang="en-US">
+<head>
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-KL6G5THL');</script>
+	<!-- End Google Tag Manager -->
+		<!-- Meta -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<meta name="description" content="Navigate the world of Python with our comprehensive guide on Python conditions. From basic if-statements to complex conditional expressions, we cover it all." />
+		<meta name="keywords" content="metallurgy, welding, soldering, boilermaking, steel, Wallid-Guergour, industrial database, industrial resources, mig welding, mag welding, mig-mag, tig welding, coated electrode, steel, titanium, stainless steel, industrial blog, professional tips, industrial design, industrial innovation, tips and tricks, metallurgical industry, welding technologies, industrial processes, industrial equipment, welding techniques, welding training, industrial safety, industrial maintenance, metal fabrication">
+
+		<meta name="author" content="Wallid-Guergour" />
+		<meta property="og:type" content="website" />
+			<meta property="og:title" content="Mastering Python Conditions: Your Step-by-Step Guide to Python's Conditional Logic" />
+			<meta property="og:url" content="https://www.wallid-guergour.com/blog/programming/python/Learn-Python-conditions-for-industial-field.html" />
+			<meta property="og:description" content="Navigate the world of Python with our comprehensive guide on Python conditions. From basic if-statements to complex conditional expressions, we cover it all." />
+			<meta proprety="og:image" content="">
+
+	<!-- Title -->
+	<title>Mastering Python Conditions: Your Step-by-Step Guide to Python's Conditional Logic</title>
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "NewsArticle",
+			"mainEntityOfPage": {
+				"@type": "WebPage",
+				"@id": "https://www.wallid-guergour.com/blog/programming/python/Learn-Python-conditions-for-industial-field.html"
+			},
+			"headline": "Mastering Python Conditions: Your Step-by-Step Guide to Python's Conditional Logic",
+			"description": "Navigate the world of Python with our comprehensive guide on Python conditions. From basic if-statements to complex conditional expressions, we cover it all.",
+			"image": [
+			  "images/Google/Schema/Index/Data.webp"
+			],
+			"datePublished": "2020-01-01T08:00:00+08:00",
+			"dateModified": "2023-07-31T09:20:00+08:00",
+			"author": {
+				"@type": "Person",
+				"name": "Wallid-Guergour",
+				"url": "https://www.wallid-guergour.com/"
+			},
+			"publisher": {
+				"@type": "Organization",
+				"name": "Wallid-Guergour",
+				"url": "https://www.wallid-guergour.com/",
+				"logo": {
+					"@type": "ImageObject",
+					"url": "images/Logo.png"
+				}
+			}
+		}
+		</script>
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic" rel="stylesheet">
+	<!-- Url Canonique-->
+	<link rel = "canonical" href= "https://www.wallid-guergour.com/blog/programming/python/Learn-Python-conditions-for-industial-field.html">
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/basic.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/layout.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/magnific-popup.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/animate.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/jarallax.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/swiper.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/fontawesome.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/brands.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/solid.css" />
+
+	<!-- Theme Colors
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/theme-colors/blue.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/theme-colors/green.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/theme-colors/orange.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/theme-colors/brown.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/theme-colors/purple.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/theme-colors/red.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/theme-colors/beige.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/theme-colors/green_light.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/theme-colors/yellow.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/theme-colors/yellow_light.css" />
+	-->
+		
+	<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<link rel="shortcut icon" href="https://www.wallid-guergour.com/images/favicons/favicon.ico">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BVP586XTEM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BVP586XTEM');
+</script>
+</head>
+
+<body>
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KL6G5THL"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+	<!-- Preloader -->
+	<div class="preloader">
+		<div class="centrize full-width">
+			<div class="vertical-center">
+				<div class="spinner">
+					<div class="double-bounce1"></div>
+					<div class="double-bounce2"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Container -->
+	<div class="container">
+
+		<!-- Cursor -->
+		<div class="cursor-follower"></div>
+	
+		<!-- Header -->
+		<header class="header">
+			<div class="head-top">
+
+				<!-- menu button -->
+				<a href="#" class="menu-btn"><span></span></a>
+
+				<!-- logo -->
+				
+				<!-- top menu -->						
+				<div class="top-menu hover-masks">
+					<div class="top-menu-nav">	
+						<div class="menu-topmenu-container">
+							<ul class="menu">
+								<li>
+									<a href="https://www.wallid-guergour.com">Home</a>
+								</li>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</header>
+		
+		<!-- Wrapper -->
+		<div class="wrapper">	
+
+			<!-- Section Started -->
+			<div class="section started layout-creative" id="section-started">
+
+				<!-- background -->
+				<div class="video-bg jarallax" style="background-image: url(images/Blog/MOOC/Background/Article1/Wallid-Guergour-Background.webp);">
+					<div class="video-bg-mask"></div>
+					<div class="video-bg-texture" id="grained_container"></div>
+				</div>
+				<!-- started content -->
+				<div class="centrize full-width">
+					<div class="vertical-center">
+						<div class="started-content">
+							<h1 class="h-title">How to use <strong>conditions</strong> in <strong>Python</strong>.</h1>
+							<div class="h-subtitles">
+								<div class="h-subtitle typing-bread">
+									<p class="breadcrumbs">
+										<a href="https://www.wallid-guergour.com">Home</a>/ Continuing to learn how to use your <strong>computer</strong>.
+									</p>
+								</div>
+								<span class="typed-bread"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- mosue button -->
+				<a href="#" class="mouse_btn" style="display: none;"><span class="icon fas fa-chevron-down"></span></a>
+
+			</div>
+
+
+			<!-- Works -->
+		<div class="section works" id="section-portfolio">
+			<div class="content">
+
+				<!-- title -->
+
+
+				<div class="clear"></div>
+			</div>
+		</div>
+
+			<!-- Work Single -->
+			<div class="section blog">
+				<div class="content content-box">
+					<div class="single-post-text">
+
+						<!-- portfolio content -->
+						<div class="portfolio-info portfolio-cols">
+							<div class="description-col">
+								
+								<!-- title -->
+								<div class="title">
+									<div class="title_inner"><h2><strong>Conditions in Python</strong></h2></div>
+								</div>
+
+								<!-- text -->
+								<div class="single-post-text">
+								
+									<p>
+										Hello everyone, today we're going to continue <strong>python programming</strong>, in the <a href="Python-for-arc-welding.html">previous blog post</a> <span class="couleur">(~_^)</span> we saw how to install python, </br>
+										Pycharm, how a <strong>program</strong> works in a simple way and what a <strong>programming language</strong> is, variables and a lot of little things.</br>
+										I want this series of blog post to be clear and simple, </br>
+										to know how to <strong>program</strong> basically without having to watch or read many hours of videos and tutorials.</br>
+										
+										In this blog post i'm going to talk about the conditions that allow us to refine the <strong>programm</strong> that we created in the previous blog post. </br>
+										For practical reasons, we will start from a <strong>program</strong> adapted to everyone and not only to the welders with the example of the <strong>coated electrodes</strong>.</br>
+									</p>
+										
+
+									<h3 class="title_inner">How do the <strong>python conditions</strong> work?</h3>
+									<img src="images/Blog/MOOC/Ressources/Python-conditions-works-Wallid-Guergour-Steel-Technics-France.webp" alt="Python for dummies part two, Blog post for Youtube channel of Wallid-Guergour"> </br></br>
+                    
+									</br></br>
+
+                                    <p> 
+										<span class="couleur">If</span> the weather is good,</br>
+                                        <span class="couleur">then</span> I go out</br>
+                                        <span class="couleur">Otherwise</span> I stay at home</br>
+
+									</p>
+
+									</br>
+
+                                    <p> 
+										This structure we will find in our code and it doesn't matter which <strong>programming</strong> language we use. 
+										So we will see the structure of all this in <strong>python</strong>.
+
+										To begin, we're going to create two <strong>variables</strong>, the first one our wallet, wallet to which have assigned as values for example 3000 dollars, 
+										We can go to the line then create the second variable which would be the price of an object, here a <strong>computer</strong>,
+										computer_(underscore)price, if you followed the previous blog post you will have understood why an underscore is used here.
+										The value of the computer is 1200 dollars.										
+									</p>
+									<img src="images/Blog/MOOC/Ressources/Python-for-newbies-2-Wallid-Guergour-Steel-Technics-France-Tutorial-Condition.webp" alt="Python for dummies part two, Blog post for Youtube channel of Wallid-Guergour"> </br></br>
+									
+									<p>
+										Then we will check if the price of the <strong>computer</strong> is less than 1500 dollars.</br>
+										The price of the <strong>computer</strong> corresponds to the <strong>variable</strong> "computer_price" then I want to check if with <em>print(computer_price < 1500)</em></br></br>
+
+										<img src="images/Blog/MOOC/Ressources/Python-for-newbies-2-Wallid-Guergour-Steel-Technics-France-Tutorial-Condition-2.webp" alt="Python for dummies part two, Blog post for Youtube channel of Wallid-Guergour"></br></br>
+										
+										The price is less than $1500.</br></br>
+
+										<img src="images/Blog/MOOC/Ressources/Python-for-newbies-2-Wallid-Guergour-Steel-Technics-France-Tutorial-Condition-2-bis.webp" alt="Python for dummies part two, Blog post for Youtube channel of Wallid-Guergour"></br></br>								
+									</p>
+								</br>
+								    <p>
+										So as in <strong>mathematics</strong>, I will use the sign strictly above or strictly below, or even two == to check for a perfect equality
+
+										This is called a Boolean, which returns true or false.
+										So we're going to start by looking to see if it's inferior in this way,
+										If I make a print of all this, it will return true.
+										
+									</p>
+								</div>
+									  
+								     <p>
+										First we will get the verification we want to do, then we used the keyword (if) which will allow us to start the condition.
+										So, if (small space) we are going to paste here the verification (computer_price < 1500 and to start the block of condition we put two small point like this (:)
+										If I go to the line now, I could carry out a series of instructions, if this condition is true. For example, <em>print ("computer price is under 1500$")</em>.
+									</p>
+									<img src="images/Blog/MOOC/Ressources/Python-for-newbies-2-Wallid-Guergour-Steel-Technics-France-Tutorial-Condition-3.webp" alt="Python for dummies part two, Blog post for Youtube channel of Wallid-Guergour"> </br></br>
+									
+									<p>
+										I start the <strong>program</strong> and you can see that the message is displayed.
+									</p>
+
+									<img src="images/Blog/MOOC/Ressources/Python-for-newbies-2-Wallid-Guergour-Steel-Technics-France-Tutorial-Condition-4.webp" alt="Python for dummies part two, Blog post for Youtube channel of Wallid-Guergour"> </br></br>
+
+									<p>
+										Now what will happen if I change the value of the c<strong>omputer</strong> price to 1600$?
+
+										You agree with me that here the condition will no longer be good, therefore we could create an "else" just below,
+										You open the conditional block as usual and can do something else, for example,
+										print( No, the price is more than 1500$)										
+									</p>
+
+									<img src="images/Blog/MOOC/Ressources/Python-for-newbies-2-Wallid-Guergour-Steel-Technics-France-Tutorial-Condition-5.webp" alt="Python for dummies part two, Blog post for Youtube channel of Wallid-Guergour"> </br></br>
+
+									<p>
+										Now I launch the <strong>program</strong>, and have this result displayed, 
+										what is important to remember is that they have checked if the price of the <strong>computer</strong> is less than 1500 
+										if it is the case they have carried out an instruction otherwise we will do other things, for example display a message.
+									</p>
+
+									<img src="images/Blog/MOOC/Ressources/Python-for-newbies-2-Wallid-Guergour-Steel-Technics-France-Tutorial-Condition-6.webp" alt="Python for dummies part two, Blog post for Youtube channel of Wallid-Guergour"> </br></br>
+
+									<p>
+										What is interesting is this sign, with, we can check if it is lower <, higher > or a perfect equality ==.
+
+										You can check if the price of the <strong>computer</strong> is different by putting for example != (exclamation point and equal)
+										You could display here "No the price is not 1500$" and here "Yes the price is 1500$".
+										I start the <strong>program</strong>. And have to well, no the price is not 1500$.
+									</br>
+									
+										<img src="images/Blog/MOOC/Ressources/Python-for-newbies-2-Wallid-Guergour-Steel-Technics-France-Tutorial-Condition-7.webp" alt="Python for dummies part two, Blog post for Youtube channel of Wallid-Guergour"> </br>
+                                        <img src="images/Blog/MOOC/Ressources/Python-for-newbies-2-Wallid-Guergour-Steel-Technics-France-Tutorial-Condition-8.webp" alt="Python for dummies part two, Blog post for Youtube channel of Wallid-Guergour"> </br>
+										And if now I set the value 1500, the <strong>program</strong> will see that the first condition is not true and will therefore take 
+										refuge in the second condition.
+									</p>
+
+									<p>
+										For example we could check here if the price of the <strong>computer</strong> is much lower or equal to the "wallet" <strong>variable</strong>, but if the person with 1500$ can still buy it, 
+										well it's not very reasonable since he or she will have 0$ at the end but well..
+										We will put here, if computeur_price <= wallet:
+										For example here I can very well take the value of "wallet" and take away the price of the <strong>computer</strong> and reassign it to the <strong>variable</strong> wallet, 
+										<em>wallet = wallet - computer_price</em>
+										<img src="images/Blog/MOOC/Ressources/Python-for-newbies-2-Wallid-Guergour-Steel-Technics-France-Tutorial-Condition-9.webp" alt="Python for dummies part two, Blog post for Youtube channel of Wallid-Guergour"> </br>
+										For those who want to do it even faster there is a trick, you can do wallet -= computer_price
+										<img src="images/Blog/MOOC/Ressources/Python-for-newbies-2-Wallid-Guergour-Steel-Technics-France-Tutorial-Condition-10.webp" alt="Python for dummies part two, Blog post for Youtube channel of Wallid-Guergour"> </br>
+										If this condition is false then we will switch to this condition "else" with as answer, <em>print("The purchase is impossible, you only have " ~here I will inject the value of the person's wallet~ + srt(wallet))</em>
+
+										And lastly, it will display the wallet after the purchase.
+										<em></em>print("wallet")</br>
+										<img src="images/Blog/MOOC/Ressources/Python-for-newbies-2-Wallid-Guergour-Steel-Technics-France-Tutorial-Condition-11.webp" alt="Python for dummies part two, Blog post for Youtube channel of Wallid-Guergour"> </br>
+
+										Now we can also make several checks for the same <strong>condition</strong>, here we have to check if we could buy the <strong>computer</strong> with the value of "wallet" but we could also refine all this, 
+										with the keyword "and" and check in addition to that if the price of the computer is more than 1000$, our program will first check this and then go on here.
+										<img src="images/Blog/MOOC/Ressources/Python-for-newbies-2-Wallid-Guergour-Steel-Technics-France-Tutorial-Condition-12.webp" alt="Python for dummies part two, Blog post for Youtube channel of Wallid-Guergour"> </br>
+										<img src="images/Blog/MOOC/Ressources/Python-for-newbies-2-Wallid-Guergour-Steel-Technics-France-Tutorial-Condition-13.webp" alt="Python for dummies part two, Blog post for Youtube channel of Wallid-Guergour"> </br>
+
+										And if both are true it will be able to execute the different instructions.</br>
+										next update I will explain how to make a lists with <strong>Python</strong>.
+										
+									</p>
+
+
+							</div>
+						</div>
+
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+
+			<!--SEPARATION TEXTUELLE-->
+			<section id="Banner-du-bas" class="dark">
+				<div class="container-fluid">
+					<div class="row">
+						<center><p>© 2019 website designed and crafted by <em>Wallid-Guergour</em> with <img src="https://www.wallid-guergour.com/images/Icones/Shaka-Steel-Technics-Wallid-Guergour-Welder-Boilermaker-Chambéry-Lyon-France-Suisse-Genève.png" alt="Shaka of Wallid-Guergour" width="30" height="30">. Canada.</p></center>
+					</div>
+				</div>
+			</section>
+			<!--SEPARATION TEXTUELLE-->
+
+			
+
+		</div>
+		
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="copy">
+				<img src="https://www.wallid-guergour.com/images/mail.png" alt="Just a simple mail logo">
+			</div>
+			<div class="soc-box">
+				<div class="follow-label">Follow Me</div>
+				<div class="soc" id="vue">
+					<li><a :href="instagram" title="My Instagram!"><img src="https://www.wallid-guergour.com/images/Icones/Instagram.svg" alt="My Instagram" width="30" height="30"></a></li>
+					<li><a :href="linkedin" title="My Linkedin!"><img src="https://www.wallid-guergour.com/images/Icones/LinkedIn.svg" alt="My LinkedIn" width="30" height="30"></a></li>
+			</div>
+			<div class="clear"></div>
+		</footer>
+
+
+		<!-- Lines -->
+		<div class="lines">
+			<div class="line-col"></div>
+			<div class="line-col"></div>
+			<div class="line-col"></div>
+			<div class="line-col"></div>
+			<div class="line-col"></div>
+		</div>
+		
+	</div>
+
+	<!-- Scripts -->
+	<script src="https://www.wallid-guergour.com/js/jquery.min.js"></script>
+	<script src="https://www.wallid-guergour.com/js/jquery.validate.js"></script>
+	<script src="https://www.wallid-guergour.com/js/magnific-popup.js"></script>
+	<script src="https://www.wallid-guergour.com/js/simpleParallax.js"></script>
+	<script src="https://www.wallid-guergour.com/js/typed.js"></script>
+	<script src="https://www.wallid-guergour.com/js/jarallax.js"></script>
+	<script src="https://www.wallid-guergour.com/js/jarallax-video.js"></script>
+	<script src="https://www.wallid-guergour.com/js/jarallax-element.js"></script>
+	<script src="https://www.wallid-guergour.com/js/imagesloaded.pkgd.js"></script>
+	<script src="https://www.wallid-guergour.com/js/isotope.pkgd.js"></script>
+	<script src="https://www.wallid-guergour.com/js/swiper.js"></script>
+	<script src="https://www.wallid-guergour.com/js/grained.js"></script>
+	<script src="https://www.wallid-guergour.com/js/scripts.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.js"></script>
+    <script src="https://www.wallid-guergour.com/js/vue.js"></script>
+    <script src="https://www.wallid-guergour.com/js/app.js"></script>
+
+</body>
+</html>

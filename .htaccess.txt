@@ -1,0 +1,12 @@
+RewriteEngine On
+
+# Forcer la redirection vers le protocole HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+# Gérer la page 404 pour le nouveau site
+ErrorDocument 404 https://www.wallid-guergour.com/annex/404-not-found.html
+
+
+

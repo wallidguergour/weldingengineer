@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-79 -20 800 600" style="enable-background:new -79 -20 800 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFEEDE;}
+	.st1{fill:none;}
+	.st2{fill:none;stroke:#000000;stroke-dasharray:4,4;}
+	.st3{font-family:'Consolas';}
+	.st4{font-size:10px;}
+	.st5{fill:none;stroke:#000000;stroke-dasharray:6,6;}
+	.st6{fill:none;stroke:#000000;stroke-opacity:0;stroke-dasharray:4,4;}
+	.st7{font-size:16px;}
+	.st8{fill:#F44336;stroke:#F44336;}
+	.st9{fill:#3F51B5;stroke:#3F51B5;}
+	.st10{fill:#009688;stroke:#009688;}
+	.st11{opacity:0;}
+	.st12{fill-opacity:0.95;}
+	.st13{fill:#F44336;fill-opacity:0.7;stroke:#F44336;stroke-opacity:0.8;}
+	.st14{font-size:14px;}
+	.st15{fill:#3F51B5;fill-opacity:0.7;stroke:#3F51B5;stroke-opacity:0.8;}
+	.st16{fill:#009688;fill-opacity:0.7;stroke:#009688;stroke-opacity:0.8;}
+</style>
+<g id="Calque_2">
+	<rect x="-79" y="-20" class="st0" width="800" height="600"/>
+</g>
+<g id="chart-55dbba47-393a-4e7a-9474-f1c63bb07645">
+	<defs>
+		
+		<script  type="text/javascript">
+			window.pygal = window.pygal || {};window.pygal.config = window.pygal.config || {};window.pygal.config[&apos;55dbba47-393a-4e7a-9474-f1c63bb07645&apos;] = {&quot;allow_interruptions&quot;: false, &quot;box_mode&quot;: &quot;extremes&quot;, &quot;classes&quot;: [&quot;pygal-chart&quot;], &quot;css&quot;: [&quot;file://style.css&quot;, &quot;file://graph.css&quot;], &quot;defs&quot;: [], &quot;disable_xml_declaration&quot;: false, &quot;dots_size&quot;: 2, &quot;dynamic_print_values&quot;: false, &quot;explicit_size&quot;: false, &quot;fill&quot;: false, &quot;force_uri_protocol&quot;: &quot;https&quot;, &quot;formatter&quot;: null, &quot;half_pie&quot;: false, &quot;height&quot;: 600, &quot;include_x_axis&quot;: false, &quot;inner_radius&quot;: 0, &quot;interpolate&quot;: null, &quot;interpolation_parameters&quot;: {}, &quot;interpolation_precision&quot;: 250, &quot;inverse_y_axis&quot;: false, &quot;js&quot;: [&quot;//kozea.github.io/pygal.js/2.0.x/pygal-tooltips.min.js&quot;], &quot;legend_at_bottom&quot;: false, &quot;legend_at_bottom_columns&quot;: null, &quot;legend_box_size&quot;: 12, &quot;logarithmic&quot;: false, &quot;margin&quot;: 20, &quot;margin_bottom&quot;: null, &quot;margin_left&quot;: null, &quot;margin_right&quot;: null, &quot;margin_top&quot;: null, &quot;max_scale&quot;: 16, &quot;min_scale&quot;: 4, &quot;missing_value_fill_truncation&quot;: &quot;x&quot;, &quot;no_data_text&quot;: &quot;No data&quot;, &quot;no_prefix&quot;: false, &quot;order_min&quot;: null, &quot;pretty_print&quot;: false, &quot;print_labels&quot;: false, &quot;print_values&quot;: false, &quot;print_values_position&quot;: &quot;center&quot;, &quot;print_zeroes&quot;: true, &quot;range&quot;: null, &quot;rounded_bars&quot;: null, &quot;secondary_range&quot;: null, &quot;show_dots&quot;: true, &quot;show_legend&quot;: true, &quot;show_minor_x_labels&quot;: true, &quot;show_minor_y_labels&quot;: true, &quot;show_only_major_dots&quot;: false, &quot;show_x_guides&quot;: false, &quot;show_x_labels&quot;: true, &quot;show_y_guides&quot;: true, &quot;show_y_labels&quot;: true, &quot;spacing&quot;: 10, &quot;stack_from_top&quot;: false, &quot;strict&quot;: false, &quot;stroke&quot;: false, &quot;stroke_style&quot;: null, &quot;style&quot;: {&quot;background&quot;: &quot;rgba(249, 249, 249, 1)&quot;, &quot;ci_colors&quot;: [], &quot;colors&quot;: [&quot;#F44336&quot;, &quot;#3F51B5&quot;, &quot;#009688&quot;, &quot;#FFC107&quot;, &quot;#FF5722&quot;, &quot;#9C27B0&quot;, &quot;#03A9F4&quot;, &quot;#8BC34A&quot;, &quot;#FF9800&quot;, &quot;#E91E63&quot;, &quot;#2196F3&quot;, &quot;#4CAF50&quot;, &quot;#FFEB3B&quot;, &quot;#673AB7&quot;, &quot;#00BCD4&quot;, &quot;#CDDC39&quot;, &quot;#9E9E9E&quot;, &quot;#607D8B&quot;], &quot;dot_opacity&quot;: &quot;1&quot;, &quot;font_family&quot;: &quot;Consolas, \&quot;Liberation Mono\&quot;, Menlo, Courier, monospace&quot;, &quot;foreground&quot;: &quot;rgba(0, 0, 0, .87)&quot;, &quot;foreground_strong&quot;: &quot;rgba(0, 0, 0, 1)&quot;, &quot;foreground_subtle&quot;: &quot;rgba(0, 0, 0, .54)&quot;, &quot;guide_stroke_color&quot;: &quot;black&quot;, &quot;guide_stroke_dasharray&quot;: &quot;4,4&quot;, &quot;label_font_family&quot;: &quot;Consolas, \&quot;Liberation Mono\&quot;, Menlo, Courier, monospace&quot;, &quot;label_font_size&quot;: 10, &quot;legend_font_family&quot;: &quot;Consolas, \&quot;Liberation Mono\&quot;, Menlo, Courier, monospace&quot;, &quot;legend_font_size&quot;: 14, &quot;major_guide_stroke_color&quot;: &quot;black&quot;, &quot;major_guide_stroke_dasharray&quot;: &quot;6,6&quot;, &quot;major_label_font_family&quot;: &quot;Consolas, \&quot;Liberation Mono\&quot;, Menlo, Courier, monospace&quot;, &quot;major_label_font_size&quot;: 10, &quot;no_data_font_family&quot;: &quot;Consolas, \&quot;Liberation Mono\&quot;, Menlo, Courier, monospace&quot;, &quot;no_data_font_size&quot;: 64, &quot;opacity&quot;: &quot;.7&quot;, &quot;opacity_hover&quot;: &quot;.8&quot;, &quot;plot_background&quot;: &quot;rgba(255, 255, 255, 1)&quot;, &quot;stroke_opacity&quot;: &quot;.8&quot;, &quot;stroke_opacity_hover&quot;: &quot;.9&quot;, &quot;stroke_width&quot;: &quot;1&quot;, &quot;stroke_width_hover&quot;: &quot;4&quot;, &quot;title_font_family&quot;: &quot;Consolas, \&quot;Liberation Mono\&quot;, Menlo, Courier, monospace&quot;, &quot;title_font_size&quot;: 16, &quot;tooltip_font_family&quot;: &quot;Consolas, \&quot;Liberation Mono\&quot;, Menlo, Courier, monospace&quot;, &quot;tooltip_font_size&quot;: 14, &quot;transition&quot;: &quot;150ms&quot;, &quot;value_background&quot;: &quot;rgba(229, 229, 229, 1)&quot;, &quot;value_colors&quot;: [], &quot;value_font_family&quot;: &quot;Consolas, \&quot;Liberation Mono\&quot;, Menlo, Courier, monospace&quot;, &quot;value_font_size&quot;: 16, &quot;value_label_font_family&quot;: &quot;Consolas, \&quot;Liberation Mono\&quot;, Menlo, Courier, monospace&quot;, &quot;value_label_font_size&quot;: 10}, &quot;title&quot;: &quot;Diagramme Fe\u2013C (approx) : Limites de phase&quot;, &quot;tooltip_border_radius&quot;: 0, &quot;tooltip_fancy_mode&quot;: true, &quot;truncate_label&quot;: null, &quot;truncate_legend&quot;: null, &quot;width&quot;: 800, &quot;x_label_rotation&quot;: 0, &quot;x_labels&quot;: null, &quot;x_labels_major&quot;: null, &quot;x_labels_major_count&quot;: null, &quot;x_labels_major_every&quot;: null, &quot;x_title&quot;: &quot;% Carbone (masse)&quot;, &quot;xrange&quot;: null, &quot;y_label_rotation&quot;: 0, &quot;y_labels&quot;: null, &quot;y_labels_major&quot;: null, &quot;y_labels_major_count&quot;: null, &quot;y_labels_major_every&quot;: null, &quot;y_title&quot;: &quot;Temp\u00e9rature (\u00b0C)&quot;, &quot;zero&quot;: 0, &quot;legends&quot;: [&quot;A3 (Ferrite\u2013Aust\u00e9nite)&quot;, &quot;ACM (Aust\u00e9nite\u2013C\u00e9mentite)&quot;, &quot;Liquidus approx&quot;]}
+			</script>
+		<script  type="text/javascript" xlink:href="https://kozea.github.io/pygal.js/2.0.x/pygal-tooltips.min.js"></script>
+	</defs>
+	<title>Diagramme Fe–C (approx) : Limites de phase</title>
+	<g>
+		<rect x="-79" y="-20" class="st1" width="800" height="600"/>
+		<g transform="translate(228, 46)">
+			<rect x="-79" y="-20" class="st1" width="552" height="488"/>
+			<g>
+				<path d="M-79,468h552"/>
+				<g>
+					<path class="st2" d="M-79,416.4h552"/>
+					<text transform="matrix(1 0 0 1 -100.4941 419.8788)" class="st3 st4">800</text>
+					<title>800</title>
+				</g>
+				<g>
+					<path class="st2" d="M-79,358.5h552"/>
+					<text transform="matrix(1 0 0 1 -100.4941 362.0205)" class="st3 st4">900</text>
+					<title>900</title>
+				</g>
+				<g>
+					<path class="st5" d="M-79,300.7h552"/>
+					<text transform="matrix(1 0 0 1 -105.9922 304.1622)" class="st3 st4">1000</text>
+					<title>1000</title>
+				</g>
+				<g>
+					<path class="st2" d="M-79,242.8h552"/>
+					<text transform="matrix(1 0 0 1 -105.9922 246.304)" class="st3 st4">1100</text>
+					<title>1100</title>
+				</g>
+				<g>
+					<path class="st2" d="M-79,184.9h552"/>
+					<text transform="matrix(1 0 0 1 -105.9922 188.4456)" class="st3 st4">1200</text>
+					<title>1200</title>
+				</g>
+				<g>
+					<path class="st2" d="M-79,127.1h552"/>
+					<text transform="matrix(1 0 0 1 -105.9922 130.5873)" class="st3 st4">1300</text>
+					<title>1300</title>
+				</g>
+				<g>
+					<path class="st2" d="M-79,69.2h552"/>
+					<text transform="matrix(1 0 0 1 -105.9922 72.7291)" class="st3 st4">1400</text>
+					<title>1400</title>
+				</g>
+				<g>
+					<path class="st5" d="M-79,11.4h552"/>
+					<text transform="matrix(1 0 0 1 -105.9922 14.8708)" class="st3 st4">1500</text>
+					<title>1500</title>
+				</g>
+			</g>
+			<g>
+				<g>
+					<path d="M-68.4-20v488"/>
+					<text transform="matrix(1 0 0 1 -71.1336 483)" class="st3 st4">0</text>
+					<title>0</title>
+				</g>
+				<g>
+					<path class="st6" d="M-15.3-20v488"/>
+					<text transform="matrix(1 0 0 1 -23.5547 483)" class="st3 st4">0.2</text>
+					<title>0.2</title>
+				</g>
+				<g>
+					<path class="st6" d="M37.8-20v488"/>
+					<text transform="matrix(1 0 0 1 29.5222 483)" class="st3 st4">0.4</text>
+					<title>0.4</title>
+				</g>
+				<g>
+					<path class="st6" d="M90.8-20v488"/>
+					<text transform="matrix(1 0 0 1 82.5991 483)" class="st3 st4">0.6</text>
+					<title>0.6</title>
+				</g>
+				<g>
+					<path class="st6" d="M143.9-20v488"/>
+					<text transform="matrix(1 0 0 1 135.676 483)" class="st3 st4">0.8</text>
+					<title>0.8</title>
+				</g>
+				<g>
+					<path class="st6" d="M197-20v488"/>
+					<text transform="matrix(1 0 0 1 194.251 483)" class="st3 st4">1</text>
+					<title>1</title>
+				</g>
+				<g>
+					<path class="st6" d="M250.1-20v488"/>
+					<text transform="matrix(1 0 0 1 241.8298 483)" class="st3 st4">1.2</text>
+					<title>1.2</title>
+				</g>
+				<g>
+					<path class="st6" d="M303.2-20v488"/>
+					<text transform="matrix(1 0 0 1 294.9067 483)" class="st3 st4">1.4</text>
+					<title>1.4</title>
+				</g>
+				<g>
+					<path class="st6" d="M356.2-20v488"/>
+					<text transform="matrix(1 0 0 1 347.9837 483)" class="st3 st4">1.6</text>
+					<title>1.6</title>
+				</g>
+				<g>
+					<path class="st6" d="M409.3-20v488"/>
+					<text transform="matrix(1 0 0 1 401.0606 483)" class="st3 st4">1.8</text>
+					<title>1.8</title>
+				</g>
+				<g>
+					<path class="st6" d="M462.4-20v488"/>
+					<text transform="matrix(1 0 0 1 459.6356 483)" class="st3 st4">2</text>
+					<title>2</title>
+				</g>
+			</g>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 136.2656 6)" class="st3 st7">Diagramme Fe–C (approx) : Limites de phase</text>
+			<text transform="matrix(1 0 0 1 350.2266 560)" class="st3 st7">% Carbone (masse)</text>
+			<text transform="matrix(6.123234e-017 -1 1 6.123234e-017 95 340.375)" class="st3 st7">Température (°C)</text>
+		</g>
+		<g transform="translate(228, 46)">
+			<g>
+				<g>
+					<circle class="st8" cx="-68.4" cy="351.6" r="2"/>
+					<desc  class="value">0: 912</desc>
+					<desc  class="x top">10.615384615384617</desc>
+					<desc  class="y top">371.5775395997344</desc>
+				</g>
+				<g>
+					<circle class="st8" cx="37.8" cy="352.7" r="2"/>
+					<desc  class="value">0.4: 910</desc>
+					<desc  class="x top">116.76923076923076</desc>
+					<desc  class="y top">372.73470549179547</desc>
+				</g>
+				<g>
+					<circle class="st8" cx="90.8" cy="387.4" r="2"/>
+					<desc  class="value">0.6: 850</desc>
+					<desc  class="x top">169.84615384615387</desc>
+					<desc  class="y top">407.449682253628</desc>
+				</g>
+				<g>
+					<circle class="st8" cx="136" cy="458.6" r="2"/>
+					<desc  class="value">0.77: 727</desc>
+					<desc  class="x top">214.96153846153845</desc>
+					<desc  class="y top">478.6153846153846</desc>
+				</g>
+			</g>
+			<g>
+				<g>
+					<circle class="st9" cx="136" cy="458.6" r="2"/>
+					<desc  class="value">0.77: 727</desc>
+					<desc  class="x top">214.96153846153845</desc>
+					<desc  class="y top">478.6153846153846</desc>
+				</g>
+				<g>
+					<circle class="st9" cx="197" cy="416.4" r="2"/>
+					<desc  class="value">1: 800</desc>
+					<desc  class="x top">276.0</desc>
+					<desc  class="y top">436.37882955515505</desc>
+				</g>
+				<g>
+					<circle class="st9" cx="250.1" cy="329.6" r="2"/>
+					<desc  class="value">1.2: 950</desc>
+					<desc  class="x left top">329.0769230769231</desc>
+					<desc  class="y left top">349.59138765057384</desc>
+				</g>
+				<g>
+					<circle class="st9" cx="303.2" cy="271.7" r="2"/>
+					<desc  class="value">1.4: 1050</desc>
+					<desc  class="x left top">382.15384615384613</desc>
+					<desc  class="y left top">291.7330930475197</desc>
+				</g>
+				<g>
+					<circle class="st9" cx="409.3" cy="219.7" r="2"/>
+					<desc  class="value">1.8: 1140</desc>
+					<desc  class="x left">488.3076923076923</desc>
+					<desc  class="y left">239.66062790477093</desc>
+				</g>
+				<g>
+					<circle class="st9" cx="462.4" cy="184.9" r="2"/>
+					<desc  class="value">2: 1200</desc>
+					<desc  class="x left">541.3846153846154</desc>
+					<desc  class="y left">204.94565114293846</desc>
+				</g>
+			</g>
+			<g>
+				<g>
+					<circle class="st10" cx="-68.4" cy="-10.6" r="2"/>
+					<desc  class="value">0: 1538</desc>
+					<desc  class="x ">10.615384615384617</desc>
+					<desc  class="y ">9.384615384615415</desc>
+				</g>
+				<g>
+					<circle class="st10" cx="64.3" cy="11.4" r="2"/>
+					<desc  class="value">0.5: 1500</desc>
+					<desc  class="x ">143.30769230769232</desc>
+					<desc  class="y ">31.37076733377603</desc>
+				</g>
+				<g>
+					<circle class="st10" cx="197" cy="34.5" r="2"/>
+					<desc  class="value">1: 1460</desc>
+					<desc  class="x ">276.0</desc>
+					<desc  class="y ">54.51408517499766</desc>
+				</g>
+				<g>
+					<circle class="st10" cx="303.2" cy="98.2" r="2"/>
+					<desc  class="value">1.4: 1350</desc>
+					<desc  class="x left">382.15384615384613</desc>
+					<desc  class="y left">118.15820923835724</desc>
+				</g>
+				<g>
+					<circle class="st10" cx="462.4" cy="127.1" r="2"/>
+					<desc  class="value">2: 1300</desc>
+					<desc  class="x left">541.3846153846154</desc>
+					<desc  class="y left">147.0873565398843</desc>
+				</g>
+			</g>
+		</g>
+		<g transform="translate(228, 46)">
+		</g>
+		<g transform="translate(228, 46)">
+			<g transform="translate(0 0)" class="st11">
+				<polygon class="st12" points="-79,-20 -79,-20 -79,-20 				"/>
+			</g>
+		</g>
+		<g transform="translate(10, 56)">
+			<g id="activate-serie-0">
+				<rect x="-79" y="-19" class="st13" width="12" height="12"/>
+				<text transform="matrix(1 0 0 1 -62 -8.8)" class="st3 st14">A3 (Ferrite–Au…</text>
+				<title>A3 (Ferrite–Austénite)</title>
+			</g>
+			<g id="activate-serie-1">
+				<rect x="-79" y="2" class="st15" width="12" height="12"/>
+				<text transform="matrix(1 0 0 1 -62 12.2)" class="st3 st14">ACM (Austénite…</text>
+				<title>ACM (Austénite–Cémentite)</title>
+			</g>
+			<g id="activate-serie-2">
+				<rect x="-79" y="23" class="st16" width="12" height="12"/>
+				<text transform="matrix(1 0 0 1 -62 33.2)" class="st3 st14">Liquidus approx</text>
+			</g>
+		</g>
+		<g transform="translate(790, 56)">
+		</g>
+	</g>
+</g>
+</svg>

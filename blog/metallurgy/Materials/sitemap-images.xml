@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.wallid-guergour.com/blog/metallurgy/Materials/Aluminum/001-Informations-on-materials-aluminum.html</loc>
+    <image:image>
+      <image:loc>images/Google/Schema/Metallurgy/Materials/01-Informations-on-materials-Aluminum.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.wallid-guergour.com/blog/metallurgy/Materials/Gold/001-Informations-on-materials-Gold.html</loc>
+    <image:image>
+      <image:loc>images/Google/Schema/Metallurgy/Materials/02-Informations-on-materials-Gold.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Blog/MOOC/Ressources/Gold-metal-casting-of-Wallid-Guergour-Themetallurgist-Arc-welding-specialist.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.wallid-guergour.com/blog/metallurgy/Materials/Nickel/001-Informations-on-materials-Nickel.html</loc>
+    <image:image>
+      <image:loc>images/Google/Schema/Metallurgy/Materials/03-Informations-on-materials-Nickel.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.wallid-guergour.com/blog/metallurgy/Materials/Tungsten/001-Informations-on-materials-Tungsten.html</loc>
+    <image:image>
+      <image:loc>images/Google/Schema/Metallurgy/Materials/04-Informations-on-materials-Tungsten.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.wallid-guergour.com/blog/metallurgy/Materials/Zinc/001-Informations-on-materials-Zinc.html</loc>
+    <image:image>
+      <image:loc>images/Google/Schema/Metallurgy/Materials/05-Informations-on-materials-Zinc.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>images/Blog/MOOC/Ressources/Gold-metal-casting-of-Wallid-Guergour-Themetallurgist-Arc-welding-specialist.webp</image:loc>
+    </image:image>
+  </url> 
+
+</urlset>

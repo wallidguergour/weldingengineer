@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Test Mermaid Mindmap</title>
+</head>
+<body style="margin: 2em; font-family: sans-serif;">
+
+<h1>Test Mindmap Mermaid</h1>
+
+<div class="mermaid">
+mindmap
+  root((Ma Mindmap))
+    A(Section A)
+    B(Section B)
+    C(Section C)
+</div>
+
+<!-- Script ESM Mermaid 10.4.x -->
+<script type="module">
+  // 1) On importe Mermaid depuis un CDN, version 10.4.0
+  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10.4.0/dist/mermaid.esm.min.mjs";
+
+  // 2) On vérifie la version dans la console
+  console.log("Mermaid version =", mermaid.version);
+
+  // 3) On initialise Mermaid
+  mermaid.initialize({
+  startOnLoad: true,
+  theme: "dark",    // 'default', 'dark', 'forest', etc.
+  securityLevel: "strict"
+});
+</script>
+
+</body>
+</html>

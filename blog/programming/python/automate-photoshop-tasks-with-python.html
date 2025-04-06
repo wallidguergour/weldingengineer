@@ -1,0 +1,464 @@
+
+<!doctype html>
+<html lang="en-US">
+<head>
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-KL6G5THL');</script>
+	<!-- End Google Tag Manager -->
+		<!-- Meta -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="description" content="Learn how to automate repetitive tasks in Photoshop with Python. Save time, reduce errors, and boost your creativity with this detailed guide." />
+<meta name="keywords" content="photoshop automation, python for designers, automate photoshop tasks, automate text layers, python scripting, automate PSD files, design workflow, creative automation, photoshop python tutorial, wallid-guergour, productivity tips, design automation tools, batch processing photoshop, JSON photoshop script, PSD automation, creative tools, automate exports photoshop, photoshop scripting" />
+
+<meta name="author" content="Wallid-Guergour" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Automate Photoshop Tasks with Python | Wallid-Guergour" />
+<meta property="og:url" content="https://www.wallid-guergour.com/blog/programming/python/automate-photoshop-tasks-with-python.html" />
+<meta property="og:description" content="Discover how to automate repetitive Photoshop tasks using Python. Update text layers, export files, and simplify your workflow with this hands-on guide." />
+
+<!-- Fonction Code -->
+<style>
+  /* Style du conteneur du code */
+  .code-container {
+    background-color: #292929;
+    padding: 1rem;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 1rem;
+    width: 60%;
+    max-width: 600px;
+  }
+
+  /* Style de la balise <code> */
+  code {
+    font-family: Consolas, monospace;
+    color: #ececec;
+  }
+
+  /* Style du bouton de copie */
+  .copy-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #2c2c2c;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .copy-btn:hover {
+    background-color: #b36b00;
+  }
+</style>
+
+<!-- Title -->
+<title>Automate Photoshop Tasks with Python | Wallid-Guergour</title>
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.wallid-guergour.com/blog/programming/python/automate-photoshop-tasks-with-python.html"
+  },
+  "headline": "Automate Photoshop Tasks with Python",
+  "description": "Learn how to automate repetitive tasks in Photoshop with Python. Save time, reduce errors, and boost your creativity with this detailed guide.",
+  "datePublished": "2025-01-06T08:00:00+08:00",
+  "dateModified": "2025-01-06T08:00:00+08:00",
+  "author": {
+    "@type": "Person",
+    "name": "Wallid-Guergour",
+    "url": "https://www.wallid-guergour.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Wallid-Guergour",
+    "url": "https://www.wallid-guergour.com/"
+  }
+}
+</script>
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic" rel="stylesheet">
+	<!-- Url Canonique-->
+	<link rel = "canonical" href= "https://www.wallid-guergour.com/blog/programming/python/automate-photoshop-tasks-with-python.html">
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/basic.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/layout.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/magnific-popup.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/animate.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/jarallax.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/swiper.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/fontawesome.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/brands.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/solid.css" />
+
+	<!-- Theme Colors
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/theme-colors/blue.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/theme-colors/green.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/theme-colors/orange.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/theme-colors/brown.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/theme-colors/purple.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/theme-colors/red.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/theme-colors/beige.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/theme-colors/green_light.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/theme-colors/yellow.css" />
+	<link rel="stylesheet" href="https://www.wallid-guergour.com/css/theme-colors/yellow_light.css" />
+	-->
+		
+	<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<link rel="shortcut icon" href="https://www.wallid-guergour.com/images/favicons/favicon.ico">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BVP586XTEM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BVP586XTEM');
+</script>
+</head>
+
+<body>
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KL6G5THL"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+	<!-- Preloader -->
+	<div class="preloader">
+		<div class="centrize full-width">
+			<div class="vertical-center">
+				<div class="spinner">
+					<div class="double-bounce1"></div>
+					<div class="double-bounce2"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Container -->
+	<div class="container">
+
+		<!-- Cursor -->
+		<div class="cursor-follower"></div>
+	
+		<!-- Header -->
+		<header class="header">
+			<div class="head-top">
+
+				<!-- menu button -->
+				<a href="#" class="menu-btn"><span></span></a>
+
+				<!-- logo -->
+				
+				<!-- top menu -->						
+				<div class="top-menu hover-masks">
+					<div class="top-menu-nav">	
+						<div class="menu-topmenu-container">
+							<ul class="menu">
+								<li>
+									<a href="https://www.wallid-guergour.com">Home</a>
+								</li>
+								<li class="menu-item">
+									<a href="https://www.wallid-guergour.com/blog/blog-welding-metallurgy-mooc.html">Blog</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</header>
+		
+		<!-- Wrapper -->
+		<div class="wrapper">	
+
+			<!-- Section Started -->
+			<div class="section started layout-creative" id="section-started">
+
+				<!-- background -->
+				<div class="video-bg jarallax" style="background-image: url(https://www.wallid-guergour.com/images/Background/ITProgramming.webp);">
+					<div class="video-bg-mask"></div>
+					<div class="video-bg-texture" id="grained_container"></div>
+				</div>
+				<!-- started content -->
+				<div class="centrize full-width">
+					<div class="vertical-center">
+						<div class="started-content">
+							<h1 class="h-title">Automate Photoshop with Python: Speed Up Your Workflow</h1>
+							<div class="h-subtitles">
+								<div class="h-subtitle typing-bread">
+									<p class="breadcrumbs">
+										<a href="https://www.wallid-guergour.com">Home</a>/
+									</p>
+								</div>
+								<span class="typed-bread"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- mosue button -->
+				<a href="#" class="mouse_btn" style="display: none;"><span class="icon fas fa-chevron-down"></span></a>
+
+			</div>
+
+
+		
+
+			<!-- Work Single -->
+			<div class="section blog">
+				<div class="content content-box">
+					<div class="single-post-text">
+
+						<!-- portfolio content -->
+						<div class="portfolio-info portfolio-cols">
+							<div class="description-col">
+
+								
+
+								<!-- text -->
+								<div class="single-post-text">
+									<script src="https://gist.github.com/SkeggioId/6db4ff9561b277f2ce75fd2f1e248005.js"></script>		
+								</div>
+								<p>Let’s be honest: if you’ve spent hours updating text layers or exporting files one by one in Photoshop, 
+									you’ve probably wondered, “Why am I doing this manually?” 
+									Good news—there’s a better way. 
+									With Python, you can automate these repetitive tasks and finally reclaim your time for the creative 
+									work you actually enjoy. 
+								</p> 
+									
+								<p>Whether you’re a designer, a content creator, 
+									or just someone tired of clicking the same buttons 50 times, 
+									this guide will walk you through how to supercharge your 
+									Photoshop workflow using Python. Let’s get started!
+								</p>
+
+								<h2>Why Automate Photoshop with Python?</h2> 
+								<p>
+									Photoshop is an amazing tool, but some tasks—like updating text layers, 
+									resizing batches of images, or exporting graphics—are just plain tedious. 
+									That’s where Python comes in. 
+									A simple script can turn hours of mindless clicking into seconds of automation. 
+									Here’s why that matters:
+								</p> 
+								<ul> 
+									<li><strong>Save time:</strong> Repetitive tasks? Gone.</li> 
+									<li><strong>Reduce errors:</strong> Scripts don’t misspell “Sale Now On!” in 20 PSD files.</li> 
+									<li><strong>Boost productivity:</strong> Spend less time exporting and more time creating.</li> 
+								</ul> 
+								<p>
+									In short, Python lets you do more in less time—with fewer headaches. And who doesn’t want that?
+								</p>
+
+								<h2>What Can You Automate in Photoshop?</h2> 
+								<p>
+									Here are just a few ways Python can help you take Photoshop to the next level:
+								</p> 
+								<ul> 
+									<li><strong>Text layer updates:</strong> Need to change the text in 10 PSD files? Done in seconds.</li> 
+									<li><strong>Batch image processing:</strong> Resize, apply filters, or export dozens of files automatically.</li> 
+									<li><strong>One-click exports:</strong> Say goodbye to menus—your visuals are export-ready with a single command.</li> 
+									<li><strong>Dynamic visuals:</strong> Perfect for projects like Instagram carousels or product catalogs.</li> 
+								</ul> 
+								<p>Basically, if you can dream it, Python can probably do it (as long as you give it a good script).</p>
+								<h2>How to Automate Photoshop: Step-by-Step</h2> 
+								<h3>1. Set Up Your Tools</h3> 
+								<p>Before you dive into automation, here’s what you’ll need:</p> 
+								<ul> 
+									<li><strong>Python 3.9 or higher:</strong> The magic behind the curtain.</li> 
+									<li><strong>Photoshop:</strong> Make sure scripting is enabled in your app settings.</li> 
+									<li><strong>Python libraries:</strong> Install what you need with this command:</li> 
+								</ul> <pre><code>pip install photoshop-python-api</code></pre>
+								<h3>2. Write Your First Script</h3> 
+								<p>
+									Let’s start simple: updating text layers in a PSD file. Here’s a Python script to get you going:
+								</p> 
+								<pre>
+									<code>
+										from photoshop import Session import json # File paths psd_file_path = "your_file.psd" json_file_path 
+										= "content.json" # Load JSON data with open(json_file_path, 'r') as f: 
+										data = json.load(f) # Update text layers with Session() as ps: doc 
+										= ps.app.open(psd_file_path) for layer_name, text in data.items(): 
+										layer = doc.ArtLayers[layer_name] layer.TextItem.contents = text doc.save() print("Update complete!")
+									</code>
+								</pre> 
+								<p>
+									<strong>What’s happening here?</strong>
+								</p> 
+								<ul> 
+									<li><strong>Session:</strong> This connects Python to Photoshop. Think of it as a translator.</li> 
+									<li><strong>JSON data:</strong> This file holds the text you want to inject into your PSD.</li> 
+									<li><strong>Layer updates:</strong> The script finds each text layer and replaces its content with 
+										what’s in the JSON file.</li> 
+									</ul> <p>It’s that easy. (Okay, not “instant magic” easy, but still pretty cool.)
+
+									</p>
+								<h3>3. Automate Your Exports</h3> 
+								<p>
+									Exporting files manually is a pain, but it doesn’t have to be. With a little scripting, you can automate the process:
+								</p> 
+								<pre>
+									<code>
+										ps.app.doAction('Export for Web', 'My Actions')
+									</code>
+								</pre> 
+								<p>
+									This tells Photoshop to run a pre-recorded action, like exporting images for web. Set it up once, and you’re good to go.
+								</p>
+								<h2>Best Practices for Photoshop Automation</h2> 
+								<p>Before you go wild with automation, keep these tips in mind:
+								</p> 
+								<ul> 
+									<li><strong>Label your layers correctly:</strong> The script relies on exact names, so no more “Layer 1 Copy (Final Final Edit).”</li> 
+									<li><strong>Start small:</strong> Test your script on a single PSD before unleashing it on a big project.</li> 
+									<li><strong>Handle errors gracefully:</strong> If a layer isn’t found, make sure your script doesn’t crash (or your patience).</li> 
+								</ul>
+
+								<h2>A Real-World Example: Instagram Carousels</h2> 
+								<p>Imagine you’re creating a carousel with 8 slides to promote a product. Normally, this would mean updating text and 
+									exporting images for each slide. But with Python, you can:
+								</p> 
+								<ol> 
+									<li>
+										<strong>Prepare your text:</strong> Write it out in a JSON file.</li> 
+										<li><strong>Run the script:</strong> Let Python handle the layer updates.</li> 
+										<li><strong>Export the slides:</strong> Get your images ready for Instagram in seconds.</li> 
+									</ol> 
+									<p>It’s fast, efficient, and makes you look like a productivity wizard.</p>
+								<h2>Why Automation Is a Game-Changer</h2> 
+								<p>Beyond saving time, automation ensures consistency across your projects. Every file is updated perfectly, 
+									every export is formatted correctly, and you can focus on what you do best—creating amazing designs. 
+									Plus, once you’ve mastered a script, you can customize it to handle even more complex workflows.
+								</p> 
+								
+								<p>
+									Think of it as Photoshop’s “easy button” (powered by Python). 
+								</p>
+
+								<h2>Ready to Transform Your Workflow?</h2> 
+								<p>I’ve shared this script, along with an example JSON file, on GitHub Gist. 
+									It’s free, easy to use, and ready to help you automate your Photoshop tasks.
+								</p> 
+								<script src="https://gist.github.com/wallidguergour/ba4e30fec356258f4cb572cd7158a75c.js"></script>
+								<p>
+									<a href="https://www.wallid-guergour.com/Download/Photoshop/Carrousel.psd" download>  Download the PSD file here</a>
+								</p> 
+								<p>If you’ve ever felt like there has to be a better way to handle repetitive Photoshop tasks, 
+									this is it. Give it a try, and let me know how it works for you!
+								</p>
+
+								<h2>Your Turn</h2> 
+								<p>Have you used Python to automate your design workflow? Share your experience 
+									in the comments—I’d love to hear your tips and ideas. And if this post helped you, 
+									feel free to like or share it. Let’s make creativity effortless.
+								</p>
+								This adaptation adds a conversational, engaging tone with a touch of humor, 
+								making it approachable for readers. It keeps the technical details clear while focusing on the practical benefits. 
+								If you need adjustments, just let me know!
+							    </div>
+							</div>
+						</div>
+
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+
+			<!--SEPARATION TEXTUELLE-->
+			<section id="Banner-du-bas" class="dark">
+				<div class="container-fluid">
+					<div class="row">
+						<center><p>© 2019 website designed and crafted by <em>Wallid-Guergour</em> with <img src="https://www.wallid-guergour.com/images/Icones/Shaka-Steel-Technics-Wallid-Guergour-Welder-Boilermaker-Chambéry-Lyon-France-Suisse-Genève.png" alt="Shaka of Wallid-Guergour" width="30" height="30">. Canada.</p></center>
+					</div>
+				</div>
+			</section>
+			<!--SEPARATION TEXTUELLE-->
+
+			
+
+		</div>
+		
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="copy">
+				<img src="https://www.wallid-guergour.com/images/mail.png" alt="Just a simple mail logo">
+			</div>
+			<div class="soc-box">
+				<div class="follow-label">Follow Me</div>
+				<div class="soc" id="vue">
+					<li><a :href="instagram" title="My Instagram!"><img src="https://www.wallid-guergour.com/images/Icones/Instagram.svg" alt="My Instagram" width="30" height="30"></a></li>
+					<li><a :href="linkedin" title="My Linkedin!"><img src="https://www.wallid-guergour.com/images/Icones/LinkedIn.svg" alt="My LinkedIn" width="30" height="30"></a></li>
+			</div>
+			<div class="clear"></div>
+		</footer>
+
+
+		<!-- Lines -->
+		<div class="lines">
+			<div class="line-col"></div>
+			<div class="line-col"></div>
+			<div class="line-col"></div>
+			<div class="line-col"></div>
+			<div class="line-col"></div>
+		</div>
+		
+	</div>
+
+	<!-- Scripts -->
+	<script src="https://www.wallid-guergour.com/js/jquery.min.js"></script>
+	<script src="https://www.wallid-guergour.com/js/jquery.validate.js"></script>
+	<script src="https://www.wallid-guergour.com/js/magnific-popup.js"></script>
+	<script src="https://www.wallid-guergour.com/js/simpleParallax.js"></script>
+	<script src="https://www.wallid-guergour.com/js/typed.js"></script>
+	<script src="https://www.wallid-guergour.com/js/jarallax.js"></script>
+	<script src="https://www.wallid-guergour.com/js/jarallax-video.js"></script>
+	<script src="https://www.wallid-guergour.com/js/jarallax-element.js"></script>
+	<script src="https://www.wallid-guergour.com/js/imagesloaded.pkgd.js"></script>
+	<script src="https://www.wallid-guergour.com/js/isotope.pkgd.js"></script>
+	<script src="https://www.wallid-guergour.com/js/swiper.js"></script>
+	<script src="https://www.wallid-guergour.com/js/grained.js"></script>
+	<script src="https://www.wallid-guergour.com/js/scripts.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.js"></script>
+    <script src="https://www.wallid-guergour.com/js/vue.js"></script>
+    <script src="https://www.wallid-guergour.com/js/app.js"></script>
+	<script src="https://www.wallid-guergour.com/js/codes.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({startOnLoad:true});
+    </script>
+	<!-- Fonction Code-->
+	<script>
+		// Fonction pour copier le texte
+		const copyButton = document.getElementById('copyButton');
+		copyButton.addEventListener('click', function() {
+		  // Récupération du texte du <code>
+		  const codeToCopy = document.getElementById('myCode').innerText;
+		  
+		  // Utilisation de l'API Clipboard
+		  navigator.clipboard.writeText(codeToCopy).then(() => {
+			alert('Le code a été copié dans le presse-papiers !');
+		  }, () => {
+			alert('Impossible de copier le code, veuillez essayer manuellement.');
+		  });
+		});
+	  </script>
+
+</body>
+</html>
