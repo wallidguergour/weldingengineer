@@ -1,148 +1,87 @@
-
 <!doctype html>
-<html lang="en-US">
+<html lang="fr-CA">
 <head>
-	<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-KL6G5THL');</script>
-	<!-- End Google Tag Manager -->
-		<!-- Meta -->
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-		<meta name="description" content="Template" />
-		<meta name="keywords" content="metallurgy, welding, soldering, boilermaking, steel, Wallid-Guergour, industrial database, industrial resources, mig welding, mag welding, mig-mag, tig welding, coated electrode, steel, titanium, stainless steel, industrial blog, professional tips, industrial design, industrial innovation, tips and tricks, metallurgical industry, welding technologies, industrial processes, industrial equipment, welding techniques, welding training, industrial safety, industrial maintenance, metal fabrication">
+  <!-- Google Tag Manager -->
+  <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KL6G5THL');
+  </script>
+  <!-- End Google Tag Manager -->
 
-		<meta name="author" content="Wallid-Guergour" />
-		<meta property="og:type" content="website" />
-			<meta property="og:title" content="Steel Technics | Wallid-Guergour, Template." />
-			<meta property="og:url" content="https://www.weldingengineer.org/Python-pour-les-soudeur.html" />
-			<meta property="og:description" content="Steel Technics, Template." />
-			<meta proprety="og:image" content="">
-    <!-- Fonction Code -->
-	<style>
-		 /* Style du conteneur du code */
-		 .code-container {
-      background-color: #f5f5f5;
-      padding: 1rem;
-      border-radius: 5px;
-      position: relative;
-      margin-bottom: 1rem;
-      width: 60%;
-      max-width: 600px;
-    }
+  <!-- Meta de base -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="robots" content="index,follow">
 
-    /* Style de la balise <code> */
-    code {
-      font-family: Consolas, monospace;
-      color: #333;
-    }
+  <!-- SEO -->
+  <title>Python pour les soudeurs | WeldingEngineer.org</title>
+  <meta name="description" content="Découvrez comment utiliser Python dans le soudage : calcul d’apport thermique, génération automatique de WPS et analyse de données.">
+  <meta name="author" content="Wallid Guergour">
+  <!-- (Optionnel) keywords legacy -->
+  <meta name="keywords" content="welding, python, automation, WPS, heat input calculator, TIG, MIG, FCAW, metallurgy">
 
-    /* Style du bouton de copie */
-    .copy-btn {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      background-color: #2c2c2c;
-      border: none;
-      color: white;
-      padding: 6px 12px;
-      border-radius: 4px;
-      cursor: pointer;
-      font-size: 14px;
-    }
+  <!-- Canonical & hreflang -->
+  <link rel="canonical" href="https://www.weldingengineer.org/fr/guides/automation/python-wps/">
+  <link rel="alternate" hreflang="fr-CA" href="https://www.weldingengineer.org/fr/guides/automation/python-wps/">
+  <link rel="alternate" hreflang="en" href="https://www.weldingengineer.org/guides/automation/python-wps/">
 
-    .copy-btn:hover {
-      background-color: #b36b00;
-    }
-	</style>
-	<!-- Title -->
-	<title>Template | Welding and Metallurgy | Wallid-Guergour</title>
-	<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
-			"@type": "NewsArticle",
-			"mainEntityOfPage": {
-				"@type": "WebPage",
-				"@id": "https://www.weldingengineer.org/your-article-url"
-			},
-			"headline": "Template",
-			"description": "This article discusses...",
-			"image": [
-			  "images/Google/Schema/Welding/Template.webp"
-			],
-			"datePublished": "2020-01-01T08:00:00+08:00",
-			"dateModified": "2023-07-31T09:20:00+08:00",
-			"author": {
-				"@type": "Person",
-				"name": "Wallid-Guergour",
-				"url": "https://www.weldingengineer.org/"
-			},
-			"publisher": {
-				"@type": "Organization",
-				"name": "Wallid-Guergour",
-				"url": "https://www.weldingengineer.org/",
-				"logo": {
-					"@type": "ImageObject",
-					"url": "images/Logo.png"
-				}
-			}
-		}
-		</script>
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="fr_CA">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:title" content="Python pour les soudeurs | WeldingEngineer.org">
+  <meta property="og:description" content="Automatisez vos calculs et documents de soudage grâce à Python. Tutoriel complet avec exemples.">
+  <meta property="og:url" content="https://www.weldingengineer.org/fr/guides/automation/python-wps/">
+  <meta property="og:image" content="https://www.weldingengineer.org/images/og/python-welding-guide.webp">
 
-	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic" rel="stylesheet">
-	<!-- Url Canonique-->
-	<link rel = "canonical" href= "https://www.weldingengineer.org/blog/template.html">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Python pour les soudeurs | WeldingEngineer.org">
+  <meta name="twitter:description" content="Automatisez vos calculs et documents de soudage grâce à Python.">
+  <meta name="twitter:image" content="https://www.weldingengineer.org/images/og/python-welding-guide.webp">
 
-	<!-- Styles -->
-	<link rel="stylesheet" href="https://www.weldingengineer.org/css/basic.css" />
-	<link rel="stylesheet" href="https://www.weldingengineer.org/css/layout.css" />
-	<link rel="stylesheet" href="https://www.weldingengineer.org/css/magnific-popup.css" />
-	<link rel="stylesheet" href="https://www.weldingengineer.org/css/animate.css" />
-	<link rel="stylesheet" href="https://www.weldingengineer.org/css/jarallax.css" />
-	<link rel="stylesheet" href="https://www.weldingengineer.org/css/swiper.css" />
-	<link rel="stylesheet" href="https://www.weldingengineer.org/css/fontawesome.css" />
-	<link rel="stylesheet" href="https://www.weldingengineer.org/css/brands.css" />
-	<link rel="stylesheet" href="https://www.weldingengineer.org/css/solid.css" />
+  <!-- JSON-LD HowTo (adapter si c’est un Article) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "Comment générer un WPS avec Python",
+    "description": "Guide pas à pas pour automatiser vos calculs d’apport thermique et générer un WPS.",
+    "image": "https://www.weldingengineer.org/images/Google/Schema/Welding/TIG-Aluminum.webp",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.weldingengineer.org/fr/guides/automation/python-wps/"
+    },
+    "author": {"@type": "Person","name": "Wallid Guergour","url": "https://www.weldingengineer.org/"},
+    "publisher": {"@type": "Organization","name": "Welding Engineer","url": "https://www.weldingengineer.org/","logo":{"@type":"ImageObject","url":"https://www.weldingengineer.org/images/Logo.png"}},
+    "step": [
+      {"@type":"HowToStep","name":"Préparer les données","text":"Collecter intensité, tension, vitesse, matériau..."},
+      {"@type":"HowToStep","name":"Écrire le script Python","text":"Calculer l’apport thermique et produire un WPS."},
+      {"@type":"HowToStep","name":"Exporter et vérifier","text":"Générer le PDF et valider les paramètres."}
+    ]
+  }
+  </script>
 
-	<!-- Theme Colors
-	<link rel="stylesheet" href="https://www.weldingengineer.org/css/theme-colors/blue.css" />
-	<link rel="stylesheet" href="https://www.weldingengineer.org/css/theme-colors/green.css" />
-	<link rel="stylesheet" href="https://www.weldingengineer.org/css/theme-colors/orange.css" />
-	<link rel="stylesheet" href="https://www.weldingengineer.org/css/theme-colors/brown.css" />
-	<link rel="stylesheet" href="https://www.weldingengineer.org/css/theme-colors/purple.css" />
-	<link rel="stylesheet" href="https://www.weldingengineer.org/css/theme-colors/red.css" />
-	<link rel="stylesheet" href="https://www.weldingengineer.org/css/theme-colors/beige.css" />
-	<link rel="stylesheet" href="https://www.weldingengineer.org/css/theme-colors/green_light.css" />
-	<link rel="stylesheet" href="https://www.weldingengineer.org/css/theme-colors/yellow.css" />
-	<link rel="stylesheet" href="https://www.weldingengineer.org/css/theme-colors/yellow_light.css" />
-	-->
-		
-	<!--[if lt IE 9]>
-	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-
-	<link rel="shortcut icon" href="images/favicons/favicon.ico">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JTFF6KKS8Y"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-JTFF6KKS8Y');
-</script>
+  <!-- Assets -->
+  <link rel="icon" href="https://www.weldingengineer.org/images/favicons/favicon.ico">
+  <link rel="stylesheet" href="https://www.weldingengineer.org/css/basic.css">
+  <link rel="stylesheet" href="https://www.weldingengineer.org/css/layout.css">
+  <link rel="stylesheet" href="https://www.weldingengineer.org/css/magnific-popup.css">
+  <link rel="stylesheet" href="https://www.weldingengineer.org/css/animate.css">
+  <link rel="stylesheet" href="https://www.weldingengineer.org/css/jarallax.css">
+  <link rel="stylesheet" href="https://www.weldingengineer.org/css/swiper.css">
+  <link rel="stylesheet" href="https://www.weldingengineer.org/css/fontawesome.css">
+  <link rel="stylesheet" href="https://www.weldingengineer.org/css/brands.css">
+  <link rel="stylesheet" href="https://www.weldingengineer.org/css/solid.css">
 </head>
-
 <body>
-	<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KL6G5THL"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KL6G5THL"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
 	<!-- Preloader -->
 	<div class="preloader">
@@ -265,6 +204,33 @@
 									
 								</br>
 							    </br>
+
+								<div style="background-color:#fffaf0; border:2px solid #ff9900; border-radius:8px; padding:25px; text-align:center; max-width:700px; margin:40px auto; font-family:Roboto, sans-serif;">
+  
+									<h2 style="color:#ff9900; font-size:22px; margin-bottom:10px;">
+									  📘 Disponible sur Amazon
+									</h2>
+									
+									<p style="color:#333; font-size:16px; margin-bottom:20px;">
+									  Découvrez mes livres complets en soudage et entrepreneuriat.<br>
+									  Accédez aux guides pratiques, méthodes et ressources directement via Amazon.
+									</p>
+									
+									<!-- Image couverture du livre ou logo Amazon -->
+									<a href="https://www.amazon.com/author/tonlienauteurl" target="_blank">
+									  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" 
+										   alt="Acheter sur Amazon" 
+										   style="height:40px; margin-bottom:20px;">
+									</a>
+									
+									<br>
+									<a href="https://www.amazon.com/author/tonlienauteurl" target="_blank" 
+									   style="display:inline-block; background-color:#ff9900; color:white; font-weight:bold; padding:12px 24px; border-radius:5px; text-decoration:none; font-size:16px;">
+									  Voir tous mes livres sur Amazon
+									</a>
+									
+								  </div>
+								  
 									
 									<br/>
 									<br/>
@@ -307,12 +273,12 @@
 		<!-- Footer -->
 		<footer class="footer">
 			<div class="copy">
-				<img src="images/mail.png" alt="Just a simple mail logo">
+				<!--<img src="images/mail.png" alt="Just a simple mail logo">-->
 			</div>
 			<div class="soc-box">
 				<div class="follow-label">Follow Me</div>
 				<div class="soc" id="vue">
-					<li><a :href="instagram" title="My Instagram!"><img src="images/Icones/Instagram.svg" alt="My Instagram" width="30" height="30"></a></li>
+					<li><a :href="pinterest" title="My pinterest!"><img src="images/Icones/Pinterest.svg" alt="My Pinterest" width="30" height="30"></a></li>
 					<li><a :href="linkedin" title="My Linkedin!"><img src="images/Icones/LinkedIn.svg" alt="My LinkedIn" width="30" height="30"></a></li>
 			</div>
 			<div class="clear"></div>

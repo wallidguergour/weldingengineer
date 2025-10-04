@@ -1,0 +1,1000 @@
+<!doctype html>
+<html lang="fr-FR">
+<head>
+  <!-- Google Tag Manager -->
+  <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KL6G5THL');
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Meta de base -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#0b0f14">
+
+  <!-- SEO -->
+  <title>Soudure fil fourré (FCAW) : guide complet, réglages & défauts | WeldingEngineer.org</title>
+  <meta name="description" content="Guide complet de la soudure fil fourré (FCAW) : différences FCAW-G/FCAW-S, réglages (tension, vitesse fil, stick-out), défauts courants et solutions, exemples terrain, sécurité et applications industrielles.">
+  <meta name="author" content="Welding Engineer">
+  <meta name="keywords" content="soudure fil fourré,FCAW,flux core welding,réglages FCAW,Metalcore,fil fourré sans gaz,FCAW-G,FCAW-S,procédés de soudage,apport thermique">
+
+  <!-- Canonical & hreflang -->
+  <link rel="canonical" href="https://www.weldingengineer.org/fr/guides/procedes/fcaw-fil-fourre/Bases.html">
+  <link rel="alternate" hreflang="fr-FR" href="https://www.weldingengineer.org/fr/guides/procedes/fcaw-fil-fourre/Bases.html">
+  <link rel="alternate" hreflang="en" href="https://www.weldingengineer.org/guides/processes/fcaw-flux-cored-welding/">
+  <link rel="alternate" hreflang="x-default" href="https://www.weldingengineer.org/guides/processes/fcaw-flux-cored-welding/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:site_name" content="Welding Engineer">
+  <meta property="og:title" content="Soudure fil fourré (FCAW) : guide complet, réglages & défauts">
+  <meta property="og:description" content="Tout savoir sur le FCAW : différences FCAW-G/FCAW-S, réglages, défauts, sécurité et cas d’usage industriels.">
+  <meta property="og:url" content="https://www.weldingengineer.org/fr/guides/procedes/fcaw-fil-fourre/Bases.html">
+  <meta property="og:image" content="https://www.weldingengineer.org/images/og/fcaw-guide.webp">
+  <meta property="og:image:alt" content="Exemple de soudure fil fourré FCAW multi-passes">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Soudure fil fourré (FCAW) : guide complet, réglages & défauts">
+  <meta name="twitter:description" content="FCAW de A à Z : réglages, défauts et solutions, sécurité, applications.">
+  <meta name="twitter:image" content="https://www.weldingengineer.org/images/og/fcaw-guide.webp">
+
+  <!-- JSON-LD : Article + Breadcrumb + FAQ -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Article",
+    "mainEntityOfPage":{
+      "@type":"WebPage",
+      "@id":"https://www.weldingengineer.org/fr/guides/procedes/fcaw-fil-fourre/Bases.html"
+    },
+    "headline":"Soudure fil fourré (FCAW) : guide complet",
+    "description":"Guide complet de la soudure fil fourré (FCAW) : différences FCAW-G/FCAW-S, réglages (tension, vitesse fil, stick-out), défauts courants et solutions, sécurité et applications industrielles.",
+    "image":["https://www.weldingengineer.org/images/Google/Schema/Welding/FCAW.webp"],
+    "datePublished":"2025-09-28T12:00:00-04:00",
+    "dateModified":"2025-09-28T12:00:00-04:00",
+    "author":{"@type":"Organization","name":"Welding Engineer","url":"https://www.weldingengineer.org/"},
+    "publisher":{
+      "@type":"Organization",
+      "name":"Welding Engineer",
+      "url":"https://www.weldingengineer.org/",
+      "logo":{"@type":"ImageObject","url":"https://www.weldingengineer.org/images/Logo.png"}
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"BreadcrumbList",
+    "itemListElement":[
+      {"@type":"ListItem","position":1,"name":"Accueil","item":"https://www.weldingengineer.org/"},
+      {"@type":"ListItem","position":2,"name":"Guides","item":"https://www.weldingengineer.org/fr/guides/"},
+      {"@type":"ListItem","position":3,"name":"Procédés","item":"https://www.weldingengineer.org/fr/guides/procedes/"},
+      {"@type":"ListItem","position":4,"name":"Soudure fil fourré (FCAW)","item":"https://www.weldingengineer.org/fr/guides/procedes/fcaw-fil-fourre/Bases.html"}
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {
+        "@type":"Question",
+        "name":"Quelle est la différence entre FCAW-G et FCAW-S ?",
+        "acceptedAnswer":{"@type":"Answer","text":"FCAW-G utilise un gaz de protection externe (souvent CO₂ ou mélange Ar/CO₂) tandis que FCAW-S est auto-protégé grâce au flux du fil. Le FCAW-G offre souvent un meilleur aspect et moins de projections ; le FCAW-S est plus tolérant en extérieur."}
+      },
+      {
+        "@type":"Question",
+        "name":"Peut-on souder sans gaz avec du fil fourré ?",
+        "acceptedAnswer":{"@type":"Answer","text":"Oui, avec du fil fourré auto-protégé (FCAW-S). C’est utile en extérieur ou lorsqu’une bouteille de gaz n’est pas pratique."}
+      },
+      {
+        "@type":"Question",
+        "name":"Quels réglages de base en FCAW ?",
+        "acceptedAnswer":{"@type":"Answer","text":"Selon le diamètre et le fil : tension typique 20–28 V, vitesse fil adaptée, stick-out court (16–20 mm), polarité généralement DCEP. Toujours valider par des essais sur coupons."}
+      },
+      {
+        "@type":"Question",
+        "name":"Quels défauts courants et comment les éviter ?",
+        "acceptedAnswer":{"@type":"Answer","text":"Porosité (humidité, stick-out trop long), manque de fusion (vitesse trop rapide ou tension inadéquate), projections (paramètres, angle), excès de pénétration (trop chaud). Ajuster tension/vitesse, respecter stick-out et nettoyage."}
+      }
+    ]
+  }
+  </script>
+
+  <!-- Fonts & Styles -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="https://www.weldingengineer.org/images/favicons/favicon.ico">
+  <link rel="stylesheet" href="https://www.weldingengineer.org/css/basic.css">
+  <link rel="stylesheet" href="https://www.weldingengineer.org/css/layout.css">
+  <link rel="stylesheet" href="https://www.weldingengineer.org/css/magnific-popup.css">
+  <link rel="stylesheet" href="https://www.weldingengineer.org/css/animate.css">
+  <link rel="stylesheet" href="https://www.weldingengineer.org/css/jarallax.css">
+  <link rel="stylesheet" href="https://www.weldingengineer.org/css/swiper.css">
+  <link rel="stylesheet" href="https://www.weldingengineer.org/css/fontawesome.css">
+  <link rel="stylesheet" href="https://www.weldingengineer.org/css/brands.css">
+  <link rel="stylesheet" href="https://www.weldingengineer.org/css/solid.css">
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KL6G5THL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+
+	<!-- Preloader -->
+	<div class="preloader">
+		<div class="centrize full-width">
+			<div class="vertical-center">
+				<div class="spinner">
+					<div class="double-bounce1"></div>
+					<div class="double-bounce2"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Container -->
+	<div class="container">
+
+		<!-- Cursor -->
+		<div class="cursor-follower"></div>
+	
+		<!-- Header -->
+		<header class="header">
+			<div class="head-top">
+
+				<!-- menu button -->
+				<a href="#" class="menu-btn"><span></span></a>
+
+				<!-- logo -->
+				
+				<!-- top menu -->						
+				<div class="top-menu hover-masks">
+					<div class="top-menu-nav">	
+						<div class="menu-topmenu-container">
+							<ul class="menu">
+								<li>
+									<a href="https://www.weldingengineer.org">Home</a>
+								</li>
+								<li class="menu-item">
+									<a href="https://www.weldingengineer.org/blog/blog-welding-metallurgy-mooc.html">Blog</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</header>
+		
+		<!-- Wrapper -->
+		<div class="wrapper">	
+
+			<!-- Section Started -->
+			<div class="section started layout-creative" id="section-started">
+
+				<!-- background -->
+				<div class="video-bg jarallax" style="background-image: url(https://www.weldingengineer.org/images/Background/Fil-Fourre-Flux-Core.webp);">
+					<div class="video-bg-mask"></div>
+					<div class="video-bg-texture" id="grained_container"></div>
+				</div>
+				<!-- started content -->
+				<div class="centrize full-width">
+					<div class="vertical-center">
+						<div class="started-content">
+							<h1 class="h-title"><strong>Apprendre</strong> la <strong>soudure fil fourré (FCAW)</strong> : procédés, réglages et défauts</h1>
+							<div class="h-subtitles">
+								<div class="h-subtitle typing-bread">
+									<p class="breadcrumbs">
+										<a href="https://www.weldingengineer.org">Home</a>/
+									</p>
+								</div>
+								<span class="typed-bread"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- mosue button -->
+				<a href="#" class="mouse_btn" style="display: none;"><span class="icon fas fa-chevron-down"></span></a>
+
+			</div>
+
+
+		
+
+			<!-- Work Single -->
+			<div class="section blog">
+				<div class="content content-box">
+					<div class="single-post-text">
+
+						<!-- portfolio content -->
+						<div class="portfolio-info portfolio-cols">
+							<div class="description-col">
+                              <!-- title -->
+<div class="title">
+	<div class="title_inner">
+	  <h2><strong>Introduction à la soudure fil fourré (FCAW)</strong></h2>
+	</div>
+  </div>
+  
+  <img src="https://www.weldingengineer.org/images/Français/Guides/FCAW/Introduction.svg" alt="Introduction de l'article sur la soudure Fil fourré"> <br/><br/>
+									
+
+  <!-- text -->
+  <div class="text">
+	<p>
+	  La <strong>soudure fil fourré</strong>, aussi appelée <em>Flux Cored Arc Welding (FCAW)</em>, est un procédé de soudage
+	  électrique largement utilisé dans l’industrie lourde. Que ce soit pour assembler des charpentes métalliques, réparer du
+	  matériel minier ou réaliser des soudures en extérieur, le FCAW offre une combinaison unique de <strong>productivité,
+	  pénétration et polyvalence</strong>.
+	</p>
+  
+	<p>
+	  Souvent comparée au MIG/MAG classique, la soudure fil fourré se distingue par son fil métallique creux, rempli de flux,
+	  qui permet soit de travailler avec un gaz de protection (<strong>FCAW-G</strong>), soit sans gaz grâce à une autoprotection
+	  (<strong>FCAW-S</strong>). Ce procédé est particulièrement apprécié pour sa capacité à souder des
+	  <strong>fortes épaisseurs</strong> et à résister aux conditions difficiles.
+	</p>
+  
+	<p>
+	  Dans ce guide complet, nous allons voir ensemble :
+	</p>
+	<ul>
+	  <li>les <strong>bases du FCAW</strong> et ses variantes,</li>
+	  <li>ses <strong>avantages et inconvénients</strong>,</li>
+	  <li>les <strong>réglages essentiels</strong> (tension, vitesse de fil, stick-out),</li>
+	  <li>les <strong>défauts courants</strong> et comment les éviter,</li>
+	  <li>et ses principales <strong>applications industrielles</strong>.</li>
+	</ul>
+  
+	<p>
+	  Que vous soyez <strong>apprenti soudeur</strong> ou professionnel confirmé, cet article vous donnera les clés pour
+	  comprendre et maîtriser la soudure fil fourré.
+	</p>
+  </div>
+  
+								
+<!-- title -->
+<div class="title">
+	<div class="title_inner">
+	  <h2><strong>Qu’est-ce que la soudure fil fourré&nbsp;?</strong></h2>
+	</div>
+  </div>
+
+  <img src="https://www.weldingengineer.org/images/Français/Guides/FCAW/Fil-fourré-explications.webp" alt="Schema explicatif sur la soudure Fil fourré FCAW">
+</br>
+  <a href="https://www.quora.com/How-does-flux-core-welding-work"><strong>Source de l'image: discussion sur Quora</strong>.</a></br>
+  <!-- text -->
+  <div class="text">
+	<p>
+	  La <strong>soudure fil fourré</strong>, ou <em>Flux Cored Arc Welding (FCAW)</em>, est un procédé de soudage à l’arc utilisant un fil creux, rempli de flux, comme métal d’apport. Lors de la fusion, le flux se décompose et libère des gaz et des scories qui protègent le bain de fusion, limitant ainsi l’oxydation et les contaminations.
+	</p>
+  
+	<p>
+	  On distingue deux grandes variantes&nbsp;:
+	</p>
+	<ul>
+	  <li>
+		<strong>FCAW-G (Gas-shielded)</strong>&nbsp;: procédé avec gaz de protection externe (CO₂ pur ou mélange Ar/CO₂), offrant un cordon plus esthétique et moins de projections.
+	  </li>
+	  <li>
+		<strong>FCAW-S (Self-shielded)</strong>&nbsp;: procédé autoprotégé, sans gaz externe, plus pratique en extérieur ou dans des environnements venteux, mais avec davantage de projections et un laitier à retirer.
+	  </li>
+	</ul>
+  
+	<p>
+	  Le FCAW est souvent comparé au <strong>MIG/MAG</strong>, avec lequel il partage l’équipement de base (poste semi-automatique et torche). Cependant, il est plus adapté aux environnements industriels exigeants et aux <strong>fortes épaisseurs</strong>, là où le fil plein peut atteindre ses limites.
+	</p>
+  </div>
+  
+  <!-- title -->
+<div class="title">
+	<div class="title_inner">
+	  <h2><strong>Équipement nécessaire pour la soudure fil fourré (FCAW)</strong></h2>
+	</div>
+  </div>
+  
+  <!-- text -->
+  <div class="text">
+	<p>
+	  Pour bien <strong>souder au fil fourré</strong>, il est essentiel de choisir un <strong>poste à souder adapté</strong>,
+	  une torche correcte et le bon type de <strong>gaz de protection</strong>. Voici le matériel recommandé pour le FCAW.
+	</p>
+  
+	<h3>Quel poste pour souder au fil fourré&nbsp;?</h3>
+	<p>
+	  Le fil fourré s’utilise avec un <strong>poste semi-automatique MIG/MAG</strong> compatible FCAW.
+	  Les meilleurs postes acceptent à la fois du fil plein et du fil fourré, avec des diamètres courants
+	  (0,9 mm, 1,2 mm, 1,6 mm). Vérifiez la puissance du poste&nbsp;: un poste 200–250 A est adapté aux travaux courants,
+	  tandis que les fortes épaisseurs nécessitent 300 A ou plus.
+	</p>
+  
+	<h3>Torche et galets crantés</h3>
+	<ul>
+	  <li><strong>Torche MIG/FCAW</strong> : refroidie par air ou eau selon l’intensité.</li>
+	  <li><strong>Galets crantés</strong> : indispensables pour entraîner correctement le fil fourré sans l’écraser.</li>
+	  <li><strong>Gaine de torche</strong> : privilégier une gaine téflon pour réduire l’usure.</li>
+	</ul>
+  
+	<h3>Quel gaz utiliser avec le FCAW&nbsp;?</h3>
+	<ul>
+	  <li><strong>CO₂ pur</strong> : économique, bonne pénétration, utilisé en industrie lourde.</li>
+	  <li><strong>Mélange Ar/CO₂</strong> : meilleur aspect du cordon, moins de projections, idéal en atelier.</li>
+	  <li><strong>Sans gaz (FCAW-S)</strong> : autoprotection, pratique pour souder en extérieur ou en conditions venteuses.</li>
+	</ul>
+  
+	<h3>Consommables et accessoires indispensables</h3>
+	<ul>
+	  <li><strong>Buses et tubes contact</strong> adaptés au diamètre du fil.</li>
+	  <li><strong>Produits anti-projections</strong> pour protéger la buse et limiter le nettoyage.</li>
+	  <li><strong>Fil fourré certifié</strong> (normes AWS A5.20 / ISO 17632), choisi selon la résistance mécanique (40 ksi, 70 ksi, 110 ksi).</li>
+	</ul>
+  
+	<p>
+	  En résumé, le <strong>meilleur matériel pour souder au fil fourré</strong> comprend un poste MIG/FCAW suffisamment puissant,
+	  une torche avec galets crantés, et le choix du bon gaz ou d’un fil autoprotégé selon l’environnement de travail.
+	</p>
+  </div>
+  
+									
+								<div style="background-color:#fffaf0; border:2px solid #ff9900; border-radius:8px; padding:25px; text-align:center; max-width:700px; margin:40px auto; font-family:Roboto, sans-serif;">
+  
+									<h2 style="color:#ff9900; font-size:22px; margin-bottom:10px;">
+									  📘 Disponible sur Amazon
+									</h2>
+									
+									<p style="color:#333; font-size:16px; margin-bottom:20px;">
+									  Découvrez mes livres complets en soudage et entrepreneuriat.<br>
+									  Accédez aux guides pratiques, méthodes et ressources directement via Amazon.
+									</p>
+									
+									<!-- Image couverture du livre ou logo Amazon -->
+									<a href="https://www.amazon.com/author/tonlienauteurl" target="_blank">
+									  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" 
+										   alt="Acheter sur Amazon" 
+										   style="height:40px; margin-bottom:20px;">
+									</a>
+									
+									<br>
+									<a href="https://www.amazon.com/author/tonlienauteurl" target="_blank" 
+									   style="display:inline-block; background-color:#ff9900; color:white; font-weight:bold; padding:12px 24px; border-radius:5px; text-decoration:none; font-size:16px;">
+									  Voir tous mes livres sur Amazon
+									</a>
+									
+								  </div>
+
+								  <!-- title -->
+<div class="title">
+	<div class="title_inner">
+	  <h2><strong>Avantages de la soudure fil fourré (FCAW)</strong></h2>
+	</div>
+  </div>
+  
+  <!-- text -->
+  <div class="text">
+	<p>
+	  La <strong>soudure fil fourré</strong> est très utilisée dans l’industrie car elle combine
+	  <strong>rendement élevé</strong>, <strong>flexibilité</strong> et <strong>résistance mécanique</strong>.
+	  Voici les principaux avantages qui expliquent son succès dans de nombreux secteurs :
+	</p>
+  
+	<ul>
+	  <li>
+		<strong>Taux de dépôt élevé</strong> : le FCAW dépose plus de métal par minute que le MIG ou l’électrode enrobée,
+		ce qui augmente la productivité sur chantier ou en atelier.
+	  </li>
+	  <li>
+		<strong>Excellente pénétration</strong> : idéal pour les <em>fortes épaisseurs</em> (jusqu’à plusieurs pouces),
+		avec une fusion profonde et homogène.
+	  </li>
+	  <li>
+		<strong>Polyvalence</strong> : adapté aussi bien aux travaux en atelier qu’aux soudures en extérieur, même dans des
+		conditions venteuses (FCAW-S).
+	  </li>
+	  <li>
+		<strong>Productivité accrue</strong> : moins de changements d’électrodes, cordons plus longs et moins de reprises.
+	  </li>
+	  <li>
+		<strong>Utilisation en toutes positions</strong> : avec les bons paramètres, le FCAW permet de souder à plat,
+		en vertical ou même en plafond.
+	  </li>
+	  <li>
+		<strong>Applications industrielles variées</strong> : construction de charpentes, pipelines, mines, naval, énergie.
+	  </li>
+	</ul>
+  </div>
+
+  <!-- video -->
+<div class="video-container">
+	<iframe 
+	  width="560" 
+	  height="315" 
+	  src="https://www.youtube.com/embed/BbLe0bkrK_0" 
+	  title="Vidéo YouTube - Soudure fil fourré FCAW" 
+	  frameborder="0" 
+	  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+	  allowfullscreen>
+	</iframe>
+  </div>
+  
+<!-- title -->
+<div class="title">
+	<div class="title_inner">
+	  <h2><strong>Inconvénients et limites de la soudure fil fourré (FCAW)</strong></h2>
+	</div>
+  </div>
+  
+  <!-- text -->
+  <div class="text">
+	<p>
+	  Malgré ses nombreux atouts, la <strong>soudure fil fourré</strong> présente aussi certaines limites qu’il faut connaître
+	  pour bien choisir le procédé selon le contexte. Voici les principaux inconvénients :
+	</p>
+  
+	<ul>
+	  <li>
+		<strong>Présence de laitier</strong> : avec le FCAW-S, un laitier se forme sur le cordon et doit être retiré
+		mécaniquement après chaque passe.
+	  </li>
+	  <li>
+		<strong>Projections importantes</strong> : le FCAW génère souvent plus de projections que le MIG/MAG,
+		nécessitant un nettoyage plus long et une protection des zones sensibles.
+	  </li>
+	  <li>
+		<strong>Aspect visuel moins esthétique</strong> : les cordons peuvent paraître plus “bruts” que ceux réalisés en TIG
+		ou en MIG.
+	  </li>
+	  <li>
+		<strong>Moins adapté aux fines épaisseurs</strong> : le risque de brûlure du métal est élevé lorsque l’épaisseur est
+		trop faible (inférieure à 3 mm).
+	  </li>
+	  <li>
+		<strong>Coût du fil</strong> : le fil fourré est généralement plus cher que le fil plein utilisé en MIG/MAG.
+	  </li>
+	  <li>
+		<strong>Nécessite une bonne maîtrise</strong> : un soudeur débutant peut avoir plus de difficulté à obtenir un
+		cordon régulier en FCAW qu’en MIG.
+	  </li>
+	</ul>
+  
+	<p>
+	  Ces limites expliquent pourquoi le FCAW est surtout privilégié dans les secteurs industriels lourds,
+	  où la productivité et la résistance mécanique priment sur l’aspect esthétique ou le coût du consommable.
+	</p>
+  </div>
+  
+
+ <!-- title -->
+<div class="title">
+	<div class="title_inner">
+	  <h2><strong>Applications courantes de la soudure fil fourré (FCAW)</strong></h2>
+	</div>
+  </div>
+  
+  <!-- text -->
+  <div class="text">
+	<p>
+	  Le procédé <strong>FCAW</strong> est particulièrement apprécié dans les domaines où la
+	  <strong>productivité</strong> et la <strong>résistance mécanique</strong> sont essentielles.
+	  Sa capacité à souder de fortes épaisseurs et à travailler en conditions difficiles en fait un choix
+	  privilégié pour de nombreux secteurs industriels.
+	</p>
+  
+	<ul>
+	  <li>
+		<strong>Construction métallique</strong> : charpentes de bâtiments, ponts et structures en acier.
+	  </li>
+	  <li>
+		<strong>Industrie minière</strong> : réparation et assemblage de pelles, concasseurs et convoyeurs.
+	  </li>
+	  <li>
+		<strong>Naval et offshore</strong> : soudage de coques, structures offshore et plateformes pétrolières.
+	  </li>
+	  <li>
+		<strong>Énergie</strong> : pipelines, centrales électriques, turbines hydrauliques et infrastructures lourdes.
+	  </li>
+	  <li>
+		<strong>Travaux publics</strong> : engins de chantier, structures routières et ferroviaires.
+	  </li>
+	</ul>
+  
+	<p>
+	  Dans ces contextes, le FCAW se distingue par sa rapidité et sa robustesse, là où d’autres procédés comme le TIG ou le MIG
+	  deviennent moins efficaces. C’est pourquoi il reste l’un des procédés les plus utilisés dans la <strong>fabrication lourde</strong>.
+	</p>
+  </div>
+  
+<!-- title -->
+<div class="title">
+	<div class="title_inner">
+	  <h2><strong>Choix des fils fourrés : types, diamètres et résistances mécaniques</strong></h2>
+	</div>
+  </div>
+  
+  <!-- text -->
+  <div class="text">
+	<p>
+	  Le choix du <strong>fil fourré</strong> dépend non seulement du type de procédé (avec ou sans gaz),
+	  mais aussi des <strong>exigences mécaniques</strong> de l’assemblage. Les fabricants proposent
+	  une large gamme de fils adaptés aux différents secteurs industriels.
+	</p>
+  
+	<h3>Types de fils</h3>
+	<ul>
+	  <li>
+		<strong>FCAW-G (avec gaz)</strong> : meilleure propreté du cordon, moins de projections,
+		idéal en atelier ou pour des soudures de haute qualité.
+	  </li>
+	  <li>
+		<strong>FCAW-S (autoprotégé)</strong> : pratique en extérieur, tolérant au vent,
+		mais avec plus de projections et un laitier à retirer.
+	  </li>
+	</ul>
+  
+	<h3>Diamètres usuels</h3>
+	<ul>
+		<li>
+		  <strong>0,9 mm (≈ 0.035")</strong> : usage léger, tôlerie ou maintenance.
+		</li>
+		<li>
+		  <strong>1,2 mm (≈ 0.045")</strong> : usage industriel standard, très courant.
+		</li>
+		<li>
+		  <strong>1,6 mm (≈ 1/16") et plus</strong> : fortes épaisseurs, applications lourdes (mines, naval, pipelines).
+		</li>
+	  </ul>
+  
+	<h3>Résistances mécaniques des fils</h3>
+	<p>
+	  Les fils fourrés sont classés selon leur <strong>résistance mécanique</strong>.
+	  Le choix dépend des contraintes que devra supporter la soudure.
+	</p>
+  
+	<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; text-align:left;">
+	  <thead>
+		<tr>
+		  <th>Classement</th>
+		  <th>Résistance mécanique (ksi)</th>
+		  <th>Résistance mécanique (MPa)</th>
+		  <th>Applications typiques</th>
+		</tr>
+	  </thead>
+	  <tbody>
+		<tr>
+		  <td><strong>E40</strong></td>
+		  <td>40 ksi</td>
+		  <td>≈ 280 MPa</td>
+		  <td>Tôlerie légère, assemblages sans fortes contraintes.</td>
+		</tr>
+		<tr>
+		  <td><strong>E70</strong></td>
+		  <td>70 ksi</td>
+		  <td>≈ 480 MPa</td>
+		  <td>Construction métallique, charpentes, maintenance industrielle.</td>
+		</tr>
+		<tr>
+		  <td><strong>E110</strong></td>
+		  <td>110 ksi</td>
+		  <td>≈ 760 MPa</td>
+		  <td>Industrie lourde, pipelines haute pression, naval, offshore.</td>
+		</tr>
+	  </tbody>
+	</table>
+  
+	<p>
+	  Le choix du fil doit donc être fait en fonction de l’épaisseur du matériau, du procédé (FCAW-G ou FCAW-S),
+	  et surtout des <strong>performances mécaniques</strong> attendues dans l’application finale.
+	</p>
+  </div>
+  
+  <!-- title -->
+<div class="title">
+	<div class="title_inner">
+	  <h2><strong>Préchauffage des pièces en fortes épaisseurs</strong></h2>
+	</div>
+  </div>
+  
+  <!-- text -->
+  <div class="text">
+	<p>
+	  Lors du soudage de <strong>fortes épaisseurs</strong> en <strong>FCAW</strong>, il est souvent nécessaire de
+	  <strong>préchauffer la pièce</strong>. Ce procédé permet de réduire les contraintes internes et de
+	  limiter le risque de <em>fissuration à froid</em>, notamment sur les aciers à haute résistance.
+	</p>
+  
+	<p>
+	  Le préchauffage a plusieurs effets bénéfiques :
+	</p>
+	<ul>
+	  <li><strong>Diminution du gradient thermique</strong> : la chaleur se répartit mieux entre la zone soudée et la masse métallique.</li>
+	  <li><strong>Réduction des vitesses de refroidissement</strong> : limite la formation de structures fragiles (martensite) dans la ZAT.</li>
+	  <li><strong>Évacuation de l’humidité</strong> : réduit le risque de porosité et de fissures dues à l’hydrogène diffusible.</li>
+	</ul>
+  
+	<p>
+	  En pratique, les températures de préchauffage varient selon :
+	</p>
+	<ul>
+	  <li>La <strong>composition chimique de l’acier</strong> (carbone équivalent, alliages).</li>
+	  <li>L’<strong>épaisseur de la pièce</strong> (plus elle est importante, plus le préchauffage est nécessaire).</li>
+	  <li>Les <strong>exigences du WPS</strong> (procédures de soudage validées par essais).</li>
+	</ul>
+  
+	<p>
+	  À titre d’exemple, pour des aciers carbone de forte épaisseur (≥ 25 mm),
+	  un préchauffage typique se situe entre <strong>100 °C et 200 °C</strong> (≈ 210–390 °F).
+	  Dans certains cas (aciers alliés, contraintes élevées), il peut être plus élevé.
+	</p>
+  
+	<p>
+	  Le contrôle de la température doit se faire avec un <strong>thermomètre infrarouge</strong>
+	  ou des <strong>crayons thermocouleur</strong> afin d’assurer une répartition homogène
+	  avant et pendant le soudage.
+	</p>
+  </div>
+
+  <!-- title -->
+<div class="title">
+	<div class="title_inner">
+	  <h2><strong>Réglages de base pour la soudure fil fourré (FCAW)</strong></h2>
+	</div>
+  </div>
+  
+  <!-- text -->
+  <div class="text">
+	<p>
+	  Les <strong>réglages du FCAW</strong> dépendent du diamètre du fil, du type de fil (avec ou sans gaz),
+	  et de l’épaisseur du matériau. Un bon ajustement des paramètres est essentiel pour obtenir un cordon
+	  régulier, éviter les projections et limiter les défauts.
+	</p>
+  
+	<h3>Paramètres essentiels</h3>
+	<ul>
+	  <li><strong>Polarité</strong> : généralement <strong>DCEP</strong> (électrode positive), sauf indication contraire du fabricant.</li>
+	  <li><strong>Tension (Voltage)</strong> : typiquement entre <strong>20 et 28 V</strong> selon le fil et l’épaisseur.</li>
+	  <li><strong>Vitesse d’avance du fil</strong> : exprimée en <strong>IPM (inches per minute)</strong> ou <strong>m/min</strong>, doit être ajustée pour stabiliser l’arc.</li>
+	  <li><strong>Stick-out</strong> (longueur libre de fil) : idéalement <strong>16–20 mm</strong> (≈ 5/8" – 3/4").</li>
+	  <li><strong>Angle de torche</strong> : souvent entre <strong>10° et 20°</strong> selon la position.</li>
+	</ul>
+  
+	<h3>Exemples de réglages typiques</h3>
+	<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; text-align:left;">
+	  <thead>
+		<tr>
+		  <th>Diamètre de fil</th>
+		  <th>Tension (V)</th>
+		  <th>Vitesse fil (IPM / m/min)</th>
+		  <th>Épaisseur métal</th>
+		  <th>Stick-out</th>
+		</tr>
+	  </thead>
+	  <tbody>
+		<tr>
+		  <td>0,9 mm (≈ 0.035")</td>
+		  <td>20–23 V</td>
+		  <td>150–250 IPM (3,8–6,4 m/min)</td>
+		  <td>3–6 mm (1/8" – 1/4")</td>
+		  <td>16 mm (5/8")</td>
+		</tr>
+		<tr>
+		  <td>1,2 mm (≈ 0.045")</td>
+		  <td>23–26 V</td>
+		  <td>250–400 IPM (6,4–10,2 m/min)</td>
+		  <td>6–19 mm (1/4" – 3/4")</td>
+		  <td>19 mm (3/4")</td>
+		</tr>
+		<tr>
+		  <td>1,6 mm (≈ 1/16")</td>
+		  <td>26–30 V</td>
+		  <td>300–500 IPM (7,6–12,7 m/min)</td>
+		  <td>> 19 mm (> 3/4")</td>
+		  <td>20 mm (≈ 13/16")</td>
+		</tr>
+	  </tbody>
+	</table>
+  
+	<p>
+	  Exemple pratique&nbsp;: sur une plaque de 25 mm (1"), un fil de <strong>1,2 mm</strong> peut être utilisé
+	  avec des réglages autour de <strong>250 IPM</strong> et <strong>25 V</strong>, ce qui permet un cordon
+	  à forte pénétration et un bon taux de dépôt.
+	</p>
+  </div>
+
+  
+  <!-- title -->
+<div class="title">
+	<div class="title_inner">
+	  <h2><strong>Défauts courants en FCAW et comment les éviter</strong></h2>
+	</div>
+  </div>
+  
+  <!-- text -->
+  <div class="text">
+	<p>
+	  Comme tout procédé de soudage, le <strong>FCAW</strong> peut générer certains défauts si les réglages
+	  ou la préparation ne sont pas adaptés. Identifier ces problèmes et savoir les corriger
+	  est essentiel pour garantir la qualité et la résistance mécanique des assemblages.
+	</p>
+  
+	<h3>Principaux défauts observés</h3>
+	<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; text-align:left;">
+	  <thead>
+		<tr>
+		  <th>Défaut</th>
+		  <th>Causes possibles</th>
+		  <th>Solutions</th>
+		</tr>
+	  </thead>
+	  <tbody>
+		<tr>
+		  <td><strong>Porosité</strong></td>
+		  <td>
+			- Humidité dans le métal ou le fil<br>
+			- Stick-out trop long<br>
+			- Gaz de protection instable (pour FCAW-G)
+		  </td>
+		  <td>
+			- Stocker les consommables au sec<br>
+			- Respecter un stick-out de 16–20 mm<br>
+			- Vérifier le débit et la protection gazeuse
+		  </td>
+		</tr>
+		<tr>
+		  <td><strong>Manque de fusion</strong></td>
+		  <td>
+			- Tension trop basse<br>
+			- Vitesse de déplacement trop rapide<br>
+			- Angle de torche inadapté
+		  </td>
+		  <td>
+			- Augmenter légèrement la tension<br>
+			- Réduire la vitesse d’avance<br>
+			- Maintenir un angle de 10–20°
+		  </td>
+		</tr>
+		<tr>
+		  <td><strong>Excès de pénétration</strong></td>
+		  <td>
+			- Intensité trop élevée<br>
+			- Jeu de racine trop important
+		  </td>
+		  <td>
+			- Diminuer légèrement le voltage ou la vitesse fil<br>
+			- Réduire l’ouverture du joint
+		  </td>
+		</tr>
+		<tr>
+		  <td><strong>Projections excessives</strong></td>
+		  <td>
+			- Paramètres mal équilibrés<br>
+			- Polarité incorrecte<br>
+			- Fil de mauvaise qualité
+		  </td>
+		  <td>
+			- Vérifier polarité (DCEP)<br>
+			- Ajuster tension / vitesse fil<br>
+			- Utiliser un fil conforme aux normes (AWS/ISO)
+		  </td>
+		</tr>
+		<tr>
+		  <td><strong>Laitier piégé</strong></td>
+		  <td>
+			- Mauvais angle ou progression<br>
+			- Nettoyage insuffisant entre passes
+		  </td>
+		  <td>
+			- Nettoyer chaque passe<br>
+			- Corriger l’angle de torche<br>
+			- Utiliser une technique de balayage adaptée
+		  </td>
+		</tr>
+	  </tbody>
+	</table>
+  
+	<p>
+	  La prévention de ces défauts repose avant tout sur un <strong>bon réglage du poste</strong>,
+	  une <strong>préparation correcte des bords</strong> et une <strong>technique maîtrisée</strong>.
+	  En milieu industriel, ces critères sont formalisés et validés dans les <strong>procédures WPS</strong>.
+	</p>
+  </div>
+
+  <!-- title -->
+<div class="title">
+	<div class="title_inner">
+	  <h2><strong>FCAW vs MIG/MAG vs électrode enrobée (SMAW)</strong></h2>
+	</div>
+  </div>
+  
+  <!-- text -->
+  <div class="text">
+	<p>
+	  La <strong>soudure fil fourré (FCAW)</strong> est souvent comparée à d’autres procédés comme le
+	  <strong>MIG/MAG</strong> et l’<strong>électrode enrobée (SMAW)</strong>. Chaque technique a ses
+	  avantages et ses limites selon le contexte&nbsp;: type de métal, épaisseur, environnement de travail
+	  et objectifs de production.
+	</p>
+  
+	<h3>Comparaison des procédés</h3>
+	<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; text-align:left;">
+	  <thead>
+		<tr>
+		  <th>Procédé</th>
+		  <th>Avantages</th>
+		  <th>Inconvénients</th>
+		  <th>Applications typiques</th>
+		</tr>
+	  </thead>
+	  <tbody>
+		<tr>
+		  <td><strong>FCAW (Flux Cored Arc Welding)</strong></td>
+		  <td>
+			- Taux de dépôt élevé<br>
+			- Bonne pénétration<br>
+			- Utilisable en extérieur (FCAW-S)<br>
+			- Adapté aux fortes épaisseurs
+		  </td>
+		  <td>
+			- Plus de projections<br>
+			- Laitier à retirer (FCAW-S)<br>
+			- Fil plus cher que MIG
+		  </td>
+		  <td>
+			- Construction lourde<br>
+			- Mines, naval, pipelines<br>
+			- Charpentes métalliques
+		  </td>
+		</tr>
+		<tr>
+		  <td><strong>MIG/MAG (GMAW)</strong></td>
+		  <td>
+			- Aspect du cordon plus esthétique<br>
+			- Moins de projections<br>
+			- Facile à apprendre<br>
+			- Très polyvalent en atelier
+		  </td>
+		  <td>
+			- Sensible au vent<br>
+			- Moins adapté aux fortes épaisseurs<br>
+			- Nécessite gaz externe
+		  </td>
+		  <td>
+			- Automobile<br>
+			- Métallerie légère<br>
+			- Ateliers de fabrication
+		  </td>
+		</tr>
+		<tr>
+		  <td><strong>SMAW (Stick / électrode enrobée)</strong></td>
+		  <td>
+			- Matériel peu coûteux<br>
+			- Grande mobilité (sans gaz)<br>
+			- Convient pour petites réparations
+		  </td>
+		  <td>
+			- Taux de dépôt faible<br>
+			- Changement fréquent d’électrodes<br>
+			- Plus de scories et nettoyage
+		  </td>
+		  <td>
+			- Maintenance sur chantier<br>
+			- Travaux ponctuels<br>
+			- Zones difficiles d’accès
+		  </td>
+		</tr>
+	  </tbody>
+	</table>
+  
+	<p>
+	  En résumé, le <strong>FCAW</strong> s’impose pour les travaux lourds et intensifs,
+	  le <strong>MIG/MAG</strong> est privilégié pour la production en atelier,
+	  tandis que le <strong>SMAW</strong> reste le choix pratique pour la maintenance
+	  et les interventions rapides sur le terrain.
+	</p>
+  </div>
+  
+  
+                     
+							    </div>
+							</div>
+						</div>
+
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+
+			<!--SEPARATION TEXTUELLE-->
+			<section id="Banner-du-bas" class="dark">
+				<div class="container-fluid">
+					<div class="row">
+						<center><p>© 2025 website designed and crafted by <em>Welding Engineer Org</em> with <img src="https://www.weldingengineer.org/images/Icones/Shaka-Steel-Technics-Wallid-Guergour-Welder-Boilermaker-Chambéry-Lyon-France-Suisse-Genève.png" alt="Shaka of Wallid-Guergour" width="30" height="30">. Canada.</p></center>
+					</div>
+				</div>
+			</section>
+			<!--SEPARATION TEXTUELLE-->
+
+			
+
+		</div>
+		
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="copy">
+				<img src="https://www.weldingengineer.org/images/mail.png" alt="Just a simple mail logo">
+			</div>
+			<div class="soc-box">
+				<div class="follow-label">Follow Me</div>
+				<div class="soc" id="vue">
+					<li><a :href="instagram" title="My Instagram!"><img src="https://www.weldingengineer.org/images/Icones/Instagram.svg" alt="My Instagram" width="30" height="30"></a></li>
+					<li><a :href="linkedin" title="My Linkedin!"><img src="https://www.weldingengineer.org/images/Icones/LinkedIn.svg" alt="My LinkedIn" width="30" height="30"></a></li>
+			</div>
+			<div class="clear"></div>
+		</footer>
+
+
+		<!-- Lines -->
+		<div class="lines">
+			<div class="line-col"></div>
+			<div class="line-col"></div>
+			<div class="line-col"></div>
+			<div class="line-col"></div>
+			<div class="line-col"></div>
+		</div>
+		
+	</div>
+
+	<!-- Scripts -->
+	<script src="https://www.weldingengineer.org/js/jquery.min.js"></script>
+	<script src="https://www.weldingengineer.org/js/jquery.validate.js"></script>
+	<script src="https://www.weldingengineer.org/js/magnific-popup.js"></script>
+	<script src="https://www.weldingengineer.org/js/simpleParallax.js"></script>
+	<script src="https://www.weldingengineer.org/js/typed.js"></script>
+	<script src="https://www.weldingengineer.org/js/jarallax.js"></script>
+	<script src="https://www.weldingengineer.org/js/jarallax-video.js"></script>
+	<script src="https://www.weldingengineer.org/js/jarallax-element.js"></script>
+	<script src="https://www.weldingengineer.org/js/imagesloaded.pkgd.js"></script>
+	<script src="https://www.weldingengineer.org/js/isotope.pkgd.js"></script>
+	<script src="https://www.weldingengineer.org/js/swiper.js"></script>
+	<script src="https://www.weldingengineer.org/js/grained.js"></script>
+	<script src="https://www.weldingengineer.org/js/scripts.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.js"></script>
+    <script src="https://www.weldingengineer.org/js/vue.js"></script>
+    <script src="https://www.weldingengineer.org/js/app.js"></script>
+	<script src="https://www.weldingengineer.org/js/codes.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({startOnLoad:true});
+    </script>
+	<!-- Fonction Code-->
+	<script>
+		// Fonction pour copier le texte
+		const copyButton = document.getElementById('copyButton');
+		copyButton.addEventListener('click', function() {
+		  // Récupération du texte du <code>
+		  const codeToCopy = document.getElementById('myCode').innerText;
+		  
+		  // Utilisation de l'API Clipboard
+		  navigator.clipboard.writeText(codeToCopy).then(() => {
+			alert('Le code a été copié dans le presse-papiers !');
+		  }, () => {
+			alert('Impossible de copier le code, veuillez essayer manuellement.');
+		  });
+		});
+	  </script>
+
+</body>
+</html>

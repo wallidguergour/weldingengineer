@@ -36,7 +36,8 @@ new Vue({
   el: '#vue',
   data: {
     instagram: '',
-    linkedin: 'https://www.linkedin.com/in/wallid-guergour-a12439ba/',
+    pinterest: 'https://www.pinterest.com/weldingengineerorg/',
+    linkedin: 'https://www.linkedin.com/company/maple-leaf-welding',
     blogArduino: '',
     blogTOR: '',
     blogHaskell: '',
